@@ -1,0 +1,46 @@
+TautomerStage1:
+    type: ring_chain
+    backend_options:
+        disable_fast_pka: True
+        min_ring_size: 5
+        max_ring_size: 7
+
+TautomerStage2:
+    backend_options:
+        disable_fast_pka: True
+        charge: 0
+
+SemiEmpStage1:
+    nkeep: 100
+    erg_window: 100.0
+    backend_options:
+        method: PM3
+        nogeopt: True
+        energy_only: True
+        keywords: 'GEO-OK NOREOR SCFCRT=1.0 ITRY=200 PL T=30D'
+
+QMStage1:
+    nkeep: 25
+    erg_window: 50.0
+    canonical: True
+    backend_options:
+        basis: LACVP**
+        dftname: B3LYP-D3
+        igeopt: 1
+        nofail: 1
+        stop_rxn: 1
+        check_min: 2
+        isolv: 2
+        nogas: 2
+        solvent: water
+
+QMStage2:
+    nkeep: 12
+    canonical: True
+    backend_options:
+        basis: cc-pVTZ(-f)
+        dftname: M06-2X
+        nofail: 1
+        isolv: 2
+        nogas: 2
+        solvent: water

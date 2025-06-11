@@ -1,0 +1,3137 @@
+{ 
+ s_m_m2io_version
+ :::
+ 2.0.0 
+} 
+
+f_m_ct { 
+ s_m_title
+ s_m_entry_id
+ s_m_entry_name
+ i_sd_PUBCHEM\_COMPOUND\_CID
+ i_sd_PUBCHEM\_COMPOUND\_CANONICALIZED
+ i_sd_PUBCHEM\_CACTVS\_COMPLEXITY
+ i_sd_PUBCHEM\_CACTVS\_HBOND\_ACCEPTOR
+ i_sd_PUBCHEM\_CACTVS\_HBOND\_DONOR
+ i_sd_PUBCHEM\_CACTVS\_ROTATABLE\_BOND
+ s_sd_PUBCHEM\_CACTVS\_SUBSKEYS
+ s_sd_PUBCHEM\_IUPAC\_OPENEYE\_NAME
+ s_sd_PUBCHEM\_IUPAC\_CAS\_NAME
+ s_sd_PUBCHEM\_IUPAC\_NAME\_MARKUP
+ s_sd_PUBCHEM\_IUPAC\_NAME
+ s_sd_PUBCHEM\_IUPAC\_SYSTEMATIC\_NAME
+ s_sd_PUBCHEM\_IUPAC\_TRADITIONAL\_NAME
+ s_sd_PUBCHEM\_IUPAC\_INCHI
+ s_sd_PUBCHEM\_IUPAC\_INCHIKEY
+ r_sd_PUBCHEM\_XLOGP3\_AA
+ r_sd_PUBCHEM\_EXACT\_MASS
+ s_sd_PUBCHEM\_MOLECULAR\_FORMULA
+ r_sd_PUBCHEM\_MOLECULAR\_WEIGHT
+ s_sd_PUBCHEM\_SMILES
+ s_sd_PUBCHEM\_OPENEYE\_CAN\_SMILES
+ s_sd_PUBCHEM\_OPENEYE\_ISO\_SMILES
+ r_sd_PUBCHEM\_CACTVS\_TPSA
+ r_sd_PUBCHEM\_MONOISOTOPIC\_WEIGHT
+ i_sd_PUBCHEM\_TOTAL\_CHARGE
+ i_sd_PUBCHEM\_HEAVY\_ATOM\_COUNT
+ i_sd_PUBCHEM\_ATOM\_DEF\_STEREO\_COUNT
+ i_sd_PUBCHEM\_ATOM\_UDEF\_STEREO\_COUNT
+ i_sd_PUBCHEM\_BOND\_DEF\_STEREO\_COUNT
+ i_sd_PUBCHEM\_BOND\_UDEF\_STEREO\_COUNT
+ i_sd_PUBCHEM\_ISOTOPIC\_ATOM\_COUNT
+ i_sd_PUBCHEM\_COMPONENT\_COUNT
+ i_sd_PUBCHEM\_CACTVS\_TAUTO\_COUNT
+ s_sd_PUBCHEM\_COORDINATE\_TYPE
+ s_sd_PUBCHEM\_BONDANNOTATIONS
+ b_sd_chiral_flag
+ i_sd_version
+ s_m_Source_Path
+ s_m_Source_File
+ i_m_Source_File_Index
+ s_j_original_title
+ r_f3d_energy
+ i_f3d_flags
+ s_ff_OPLSVersion
+ r_ff_RMS_Derivative
+ b_ff_Minimization_Converged
+ s_mopac_SemiEmpirical_Method
+ r_mopac_MOPAC_Heat_of_Formation
+ s_j_jname
+ s_j_genealogy
+ i_j_TautomerStage1_index
+ r_j_multistage_ediff
+ s_st_EZ_1
+ i_j_TautomerStage2_index
+ r_NDDO_NDDO_Heat_of_Formation
+ s_NDDO_SemiEmpirical_Method
+ i_j_SemiEmpStage1_index
+ i_m_Spin_multiplicity
+ s_j_Task
+ s_j_Jaguar_input_file
+ s_j_Jaguar_restart_input_file
+ s_j_Jaguar_restart_mae_file
+ s_j_Jaguar_output_file
+ s_j_Jaguar_log_file
+ s_j_Jaguar_mae_file
+ s_j_QM_Method
+ s_j_QM_Basis
+ i_j_Number_of_canonical_orbitals
+ i_j_Geometry_convergence_category
+ r_j_Gas_Phase_Energy
+ r_j_Solution_Phase_Energy
+ r_j_Final_Energy
+ r_j_Solvation_Energy_(kcal/mol)
+ r_j_HOMO
+ r_j_LUMO
+ i_j_QMStage1_index
+ i_j_QMStage2_index
+ s_m_subgroupid
+ b_m_subgroup_collapsed
+ i_m_ct_format
+ :::
+ 227928_1 
+  2 
+  Structure2D_COMPOUND_CID_227928.1 
+  227928
+  1
+  246
+  5
+  3
+  1
+  AAADcYBjsAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAHgAcAAAACAjBgAQBAALiAACJAAVWUACAAAAAAgAQAICIAECAQAAAAAAQAAAIByIAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA== 
+  "N-(2,4-dioxo-1H-pyrimidin-5-yl)nitrous amide" 
+  "N-(2,4-dioxo-1H-pyrimidin-5-yl)nitrous amide" 
+  "<I>N</I>-(2,4-dioxo-1<I>H</I>-pyrimidin-5-yl)nitrous amide" 
+  "N-(2,4-dioxo-1H-pyrimidin-5-yl)nitrous amide" 
+  "N-[2,4-bis(oxidanylidene)-1H-pyrimidin-5-yl]nitrous amide" 
+  "N-(2,4-diketo-1H-pyrimidin-5-yl)nitrous amide" 
+  InChI=1S/C4H4N4O3/c9-3-2(7-8-11)1-5-4(10)6-3/h1H,(H,7,11)(H2,5,6,9,10) 
+  OIXPJPUFFXAGLN-UHFFFAOYSA-N 
+  -1.1
+  156.02834
+  C4H4N4O3 
+  156.1
+  C1=C(C(=O)NC(=O)N1)NN=O 
+  C1=C(C(=O)NC(=O)N1)NN=O 
+  C1=C(C(=O)NC(=O)N1)NN=O 
+  99.7
+  156.02834
+  0
+  11
+  0
+  0
+  0
+  0
+  0
+  1
+  -1
+  "1
+5
+255" 
+  "4  11  8
+4  9  8
+5  10  8
+5  11  8
+8  10  8
+8  9  8" 
+  0
+  0
+  /home/vm/Downloads 
+  Structure2D_COMPOUND_CID_227928.sdf 
+  1
+  227928 
+  0
+  0
+  OPLS4 
+  0.0361759419750687
+  1
+  PM7 
+  -66.63182
+  227928_2_isomer2 
+  1_29_3_2_1 
+  1
+  0
+  8_6_7_3_E 
+  29
+  -23.83122
+  PM3 
+  3
+  1
+  "Single Point" 
+  /mnt/Data_4/RESEARCH/UHRF1/JAGUAR/nsc20116_taut/nsc20116_taut_QMStage2_workdir/227928_2_isomer2.in 
+  /mnt/Data_4/RESEARCH/UHRF1/JAGUAR/nsc20116_taut/nsc20116_taut_QMStage2_workdir/227928_2_isomer2.01.in 
+  /mnt/Data_4/RESEARCH/UHRF1/JAGUAR/nsc20116_taut/nsc20116_taut_QMStage2_workdir/227928_2_isomer2.01.mae 
+  /mnt/Data_4/RESEARCH/UHRF1/JAGUAR/nsc20116_taut/nsc20116_taut_QMStage2_workdir/227928_2_isomer2.out 
+  /mnt/Data_4/RESEARCH/UHRF1/JAGUAR/nsc20116_taut/nsc20116_taut_QMStage2_workdir/227928_2_isomer2.log 
+  /mnt/Data_4/RESEARCH/UHRF1/JAGUAR/nsc20116_taut/nsc20116_taut_QMStage2_workdir/227928_2_isomer2.mae 
+  DFT(m06-2x)/SOLV 
+  cc-pvtz(-f) 
+  287
+  0
+  -599.443382019239
+  -599.483637416293
+  -599.483637416293
+  -25.2606428702875
+  -0.304508403664048
+  -0.0519267462849358
+  2
+  1
+  nsc20116_taut_QMStage2-out.mae 
+  1
+  2
+ m_depend[19] { 
+  # First column is dependency index #
+  i_m_depend_dependency
+  s_m_depend_property
+  :::
+  1 10 s_st_EZ_1 
+  2 20 i_m_Spin_multiplicity 
+  3 20 s_j_Task 
+  4 20 s_j_Jaguar_input_file 
+  5 20 s_j_Jaguar_restart_input_file 
+  6 20 s_j_Jaguar_restart_mae_file 
+  7 20 s_j_Jaguar_output_file 
+  8 20 s_j_Jaguar_log_file 
+  9 20 s_j_Jaguar_mae_file 
+  10 20 s_j_QM_Method 
+  11 20 s_j_QM_Basis 
+  12 20 i_j_Number_of_canonical_orbitals 
+  13 20 i_j_Geometry_convergence_category 
+  14 20 r_j_Gas_Phase_Energy 
+  15 20 r_j_Solution_Phase_Energy 
+  16 20 r_j_Final_Energy 
+  17 20 r_j_Solvation_Energy_(kcal/mol) 
+  18 20 r_j_HOMO 
+  19 20 r_j_LUMO 
+  :::
+ } 
+ m_atom[15] { 
+  # First column is atom index #
+  i_m_mmod_type
+  r_m_x_coord
+  r_m_y_coord
+  r_m_z_coord
+  i_m_residue_number
+  i_m_color
+  r_m_charge1
+  r_m_charge2
+  i_m_atomic_number
+  s_m_color_rgb
+  s_m_atom_name
+  r_j_ESP_Charges
+  s_j_Tautomer_site
+  :::
+  1 15 -1.835538 -1.466913 -0.082931 900 70 -0.61147 -0.61147 8 FF2F2F  O1  -0.611465873098482 acceptor 
+  2 15 -1.741818 3.110484 0.130265 900 70 -0.60820 -0.60820 8 FF2F2F  O2  -0.608201805935335 acceptor 
+  3 16 2.753283 -2.853684 -0.068794 900 70 -0.44863 -0.44863 8 FF2F2F  O3  -0.448630593222108 donor 
+  4 25 -1.751388 0.813454 0.023119 900 43 -0.35444 -0.35444 7 5757FF  N4  -0.354439973789407 donor 
+  5 25 0.255169 1.989256 -0.039810 900 43 -0.31803 -0.31803 7 5757FF  N5  -0.318028343654176 donor 
+  6 25 0.984904 -1.640913 -0.198766 900 43 -0.23175 -0.23175 7 5757FF  N6  -0.231752576516707 acceptor 
+  7 25 2.186592 -1.601711 0.130613 900 43 -0.01784 -0.01784 7 5757FF  N7  -0.0178360554770249 acceptor 
+  8 2 0.318308 -0.397371 -0.105524 900 2 0.17855 0.17855 6 A0A0A0  C8  0.178548451371116 <>
+  9 2 -1.146617 -0.447593 -0.062895 900 2 0.45947 0.45947 6 A0A0A0  C9  0.459467472853529 <>
+  10 2 0.945543 0.819241 -0.108809 900 2 -0.04806 -0.04806 6 A0A0A0  C10  -0.0480564070990639 <>
+  11 2 -1.131711 2.050176 0.047290 900 2 0.54700 0.54700 6 A0A0A0  C11  0.546998809115238 <>
+  12 41 2.025056 0.899649 -0.177891 900 21 0.19365 0.19365 1 FFFFFF  H12  0.193646430750948 <>
+  13 43 -2.771199 0.825688 0.077034 900 21 0.38050 0.38050 1 FFFFFF  H13  0.380495220090597 <>
+  14 43 0.751037 2.880877 -0.057704 900 21 0.40956 0.40956 1 FFFFFF  H14  0.40955786572532 <>
+  15 42 3.674961 -2.745293 0.238717 900 21 0.46970 0.46970 1 FFFFFF  H15  0.469697378885555 <>
+  :::
+ } 
+ m_bond[15] { 
+  # First column is bond index #
+  i_m_from
+  i_m_to
+  i_m_order
+  :::
+  1 1 9 2
+  2 2 11 2
+  3 3 7 1
+  4 3 15 1
+  5 4 9 1
+  6 4 11 1
+  7 4 13 1
+  8 5 10 1
+  9 5 11 1
+  10 5 14 1
+  11 6 7 2
+  12 6 8 1
+  13 8 9 1
+  14 8 10 2
+  15 10 12 1
+  :::
+ } 
+} 
+
+f_m_ct { 
+ s_m_title
+ s_m_entry_id
+ s_m_entry_name
+ i_sd_PUBCHEM\_COMPOUND\_CID
+ i_sd_PUBCHEM\_COMPOUND\_CANONICALIZED
+ i_sd_PUBCHEM\_CACTVS\_COMPLEXITY
+ i_sd_PUBCHEM\_CACTVS\_HBOND\_ACCEPTOR
+ i_sd_PUBCHEM\_CACTVS\_HBOND\_DONOR
+ i_sd_PUBCHEM\_CACTVS\_ROTATABLE\_BOND
+ s_sd_PUBCHEM\_CACTVS\_SUBSKEYS
+ s_sd_PUBCHEM\_IUPAC\_OPENEYE\_NAME
+ s_sd_PUBCHEM\_IUPAC\_CAS\_NAME
+ s_sd_PUBCHEM\_IUPAC\_NAME\_MARKUP
+ s_sd_PUBCHEM\_IUPAC\_NAME
+ s_sd_PUBCHEM\_IUPAC\_SYSTEMATIC\_NAME
+ s_sd_PUBCHEM\_IUPAC\_TRADITIONAL\_NAME
+ s_sd_PUBCHEM\_IUPAC\_INCHI
+ s_sd_PUBCHEM\_IUPAC\_INCHIKEY
+ r_sd_PUBCHEM\_XLOGP3\_AA
+ r_sd_PUBCHEM\_EXACT\_MASS
+ s_sd_PUBCHEM\_MOLECULAR\_FORMULA
+ r_sd_PUBCHEM\_MOLECULAR\_WEIGHT
+ s_sd_PUBCHEM\_SMILES
+ s_sd_PUBCHEM\_OPENEYE\_CAN\_SMILES
+ s_sd_PUBCHEM\_OPENEYE\_ISO\_SMILES
+ r_sd_PUBCHEM\_CACTVS\_TPSA
+ r_sd_PUBCHEM\_MONOISOTOPIC\_WEIGHT
+ i_sd_PUBCHEM\_TOTAL\_CHARGE
+ i_sd_PUBCHEM\_HEAVY\_ATOM\_COUNT
+ i_sd_PUBCHEM\_ATOM\_DEF\_STEREO\_COUNT
+ i_sd_PUBCHEM\_ATOM\_UDEF\_STEREO\_COUNT
+ i_sd_PUBCHEM\_BOND\_DEF\_STEREO\_COUNT
+ i_sd_PUBCHEM\_BOND\_UDEF\_STEREO\_COUNT
+ i_sd_PUBCHEM\_ISOTOPIC\_ATOM\_COUNT
+ i_sd_PUBCHEM\_COMPONENT\_COUNT
+ i_sd_PUBCHEM\_CACTVS\_TAUTO\_COUNT
+ s_sd_PUBCHEM\_COORDINATE\_TYPE
+ s_sd_PUBCHEM\_BONDANNOTATIONS
+ b_sd_chiral_flag
+ i_sd_version
+ s_m_Source_Path
+ s_m_Source_File
+ i_m_Source_File_Index
+ s_j_original_title
+ r_f3d_energy
+ i_f3d_flags
+ s_ff_OPLSVersion
+ r_ff_RMS_Derivative
+ b_ff_Minimization_Converged
+ s_mopac_SemiEmpirical_Method
+ r_mopac_MOPAC_Heat_of_Formation
+ s_j_jname
+ s_j_genealogy
+ i_j_TautomerStage1_index
+ r_j_multistage_ediff
+ i_j_TautomerStage2_index
+ r_NDDO_NDDO_Heat_of_Formation
+ s_NDDO_SemiEmpirical_Method
+ i_j_SemiEmpStage1_index
+ i_m_Spin_multiplicity
+ s_j_Task
+ s_j_Jaguar_input_file
+ s_j_Jaguar_restart_input_file
+ s_j_Jaguar_restart_mae_file
+ s_j_Jaguar_output_file
+ s_j_Jaguar_log_file
+ s_j_Jaguar_mae_file
+ s_j_QM_Method
+ s_j_QM_Basis
+ i_j_Number_of_canonical_orbitals
+ i_j_Geometry_convergence_category
+ r_j_Gas_Phase_Energy
+ r_j_Solution_Phase_Energy
+ r_j_Final_Energy
+ r_j_Solvation_Energy_(kcal/mol)
+ r_j_HOMO
+ r_j_LUMO
+ i_j_QMStage1_index
+ i_j_QMStage2_index
+ s_m_subgroupid
+ b_m_subgroup_collapsed
+ i_m_ct_format
+ :::
+ 227928_2 
+  2 
+  Structure2D_COMPOUND_CID_227928.1 
+  227928
+  1
+  246
+  5
+  3
+  1
+  AAADcYBjsAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAHgAcAAAACAjBgAQBAALiAACJAAVWUACAAAAAAgAQAICIAECAQAAAAAAQAAAIByIAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA== 
+  "N-(2,4-dioxo-1H-pyrimidin-5-yl)nitrous amide" 
+  "N-(2,4-dioxo-1H-pyrimidin-5-yl)nitrous amide" 
+  "<I>N</I>-(2,4-dioxo-1<I>H</I>-pyrimidin-5-yl)nitrous amide" 
+  "N-(2,4-dioxo-1H-pyrimidin-5-yl)nitrous amide" 
+  "N-[2,4-bis(oxidanylidene)-1H-pyrimidin-5-yl]nitrous amide" 
+  "N-(2,4-diketo-1H-pyrimidin-5-yl)nitrous amide" 
+  InChI=1S/C4H4N4O3/c9-3-2(7-8-11)1-5-4(10)6-3/h1H,(H,7,11)(H2,5,6,9,10) 
+  OIXPJPUFFXAGLN-UHFFFAOYSA-N 
+  -1.1
+  156.02834
+  C4H4N4O3 
+  156.1
+  C1=C(C(=O)NC(=O)N1)NN=O 
+  C1=C(C(=O)NC(=O)N1)NN=O 
+  C1=C(C(=O)NC(=O)N1)NN=O 
+  99.7
+  156.02834
+  0
+  11
+  0
+  0
+  0
+  0
+  0
+  1
+  -1
+  "1
+5
+255" 
+  "4  11  8
+4  9  8
+5  10  8
+5  11  8
+8  10  8
+8  9  8" 
+  0
+  0
+  /home/vm/Downloads 
+  Structure2D_COMPOUND_CID_227928.sdf 
+  1
+  227928 
+  0
+  0
+  OPLS4 
+  0.0479931276432921
+  1
+  PM7 
+  -66.63182
+  227928_1_isomer1 
+  1_1_1_1_2 
+  1
+  1.5607102260692
+  1
+  -25.11657
+  PM3 
+  1
+  1
+  "Single Point" 
+  /mnt/Data_4/RESEARCH/UHRF1/JAGUAR/nsc20116_taut/nsc20116_taut_QMStage2_workdir/227928_1_isomer1.in 
+  /mnt/Data_4/RESEARCH/UHRF1/JAGUAR/nsc20116_taut/nsc20116_taut_QMStage2_workdir/227928_1_isomer1.01.in 
+  /mnt/Data_4/RESEARCH/UHRF1/JAGUAR/nsc20116_taut/nsc20116_taut_QMStage2_workdir/227928_1_isomer1.01.mae 
+  /mnt/Data_4/RESEARCH/UHRF1/JAGUAR/nsc20116_taut/nsc20116_taut_QMStage2_workdir/227928_1_isomer1.out 
+  /mnt/Data_4/RESEARCH/UHRF1/JAGUAR/nsc20116_taut/nsc20116_taut_QMStage2_workdir/227928_1_isomer1.log 
+  /mnt/Data_4/RESEARCH/UHRF1/JAGUAR/nsc20116_taut/nsc20116_taut_QMStage2_workdir/227928_1_isomer1.mae 
+  DFT(m06-2x)/SOLV 
+  cc-pvtz(-f) 
+  287
+  0
+  -599.447581282351
+  -599.481150266233
+  -599.481150266233
+  -21.0648552837991
+  -0.288996470062753
+  -0.0418966498956397
+  1
+  2
+  nsc20116_taut_QMStage2-out.mae 
+  1
+  2
+ m_depend[18] { 
+  # First column is dependency index #
+  i_m_depend_dependency
+  s_m_depend_property
+  :::
+  1 20 i_m_Spin_multiplicity 
+  2 20 s_j_Task 
+  3 20 s_j_Jaguar_input_file 
+  4 20 s_j_Jaguar_restart_input_file 
+  5 20 s_j_Jaguar_restart_mae_file 
+  6 20 s_j_Jaguar_output_file 
+  7 20 s_j_Jaguar_log_file 
+  8 20 s_j_Jaguar_mae_file 
+  9 20 s_j_QM_Method 
+  10 20 s_j_QM_Basis 
+  11 20 i_j_Number_of_canonical_orbitals 
+  12 20 i_j_Geometry_convergence_category 
+  13 20 r_j_Gas_Phase_Energy 
+  14 20 r_j_Solution_Phase_Energy 
+  15 20 r_j_Final_Energy 
+  16 20 r_j_Solvation_Energy_(kcal/mol) 
+  17 20 r_j_HOMO 
+  18 20 r_j_LUMO 
+  :::
+ } 
+ m_atom[15] { 
+  # First column is atom index #
+  i_m_mmod_type
+  r_m_x_coord
+  r_m_y_coord
+  r_m_z_coord
+  i_m_residue_number
+  i_m_color
+  r_m_charge1
+  r_m_charge2
+  i_m_atomic_number
+  s_m_color_rgb
+  s_m_atom_name
+  r_j_ESP_Charges
+  i_m_Hcount
+  s_j_Tautomer_site
+  :::
+  1 15 1.757506 -1.505434 0.013938 900 70 -0.61789 -0.61789 8 FF2F2F  O1  -0.617894914264305 0 acceptor 
+  2 15 1.812159 3.086869 -0.042676 900 70 -0.64289 -0.64289 8 FF2F2F  O2  -0.64288519582789 0 acceptor 
+  3 15 -2.757458 -2.830075 -0.124592 900 70 -0.32766 -0.32766 8 FF2F2F  O3  -0.327657859824199 0 acceptor 
+  4 25 1.760542 0.788140 -0.010849 900 43 -0.40891 -0.40891 7 5757FF  N4  -0.408909720997376 1 donor 
+  5 25 -0.216060 2.010294 0.040998 900 43 -0.41417 -0.41417 7 5757FF  N5  -0.414174157615229 1 donor 
+  6 25 -1.008352 -1.597018 0.081371 900 43 0.32148 0.32148 7 5757FF  N6  0.321484790735011 1 donor+acceptor 
+  7 25 -2.302568 -1.683489 -0.187132 900 43 -0.10516 -0.10516 7 5757FF  N7  -0.105157471199702 0 acceptor 
+  8 2 -0.335133 -0.365238 0.063221 900 2 -0.44311 -0.44311 6 A0A0A0  C8  -0.443113015510685 0 <>
+  9 2 1.122820 -0.447906 0.018941 900 2 0.65713 0.65713 6 A0A0A0  C9  0.657134942018743 0 <>
+  10 2 -0.947989 0.850467 0.086805 900 2 0.21105 0.21105 6 A0A0A0  C10  0.211045385401677 1 <>
+  11 2 1.165782 2.043566 -0.007825 900 2 0.65274 0.65274 6 A0A0A0  C11  0.652738320229262 0 <>
+  12 41 -2.025081 0.961985 0.130415 900 21 0.13769 0.13769 1 FFFFFF  H12  0.137690960433539 0 <>
+  13 43 2.780198 0.774982 -0.047771 900 21 0.36177 0.36177 1 FFFFFF  H13  0.361769670450649 0 <>
+  14 43 -0.691561 2.911887 0.054143 900 21 0.40381 0.40381 1 FFFFFF  H14  0.403812452783886 0 <>
+  15 43 -0.480960 -2.457170 0.266892 900 21 0.21412 0.21412 1 FFFFFF  H15  0.214115813186622 0 <>
+  :::
+ } 
+ m_bond[15] { 
+  # First column is bond index #
+  i_m_from
+  i_m_to
+  i_m_order
+  :::
+  1 1 9 2
+  2 2 11 2
+  3 3 7 2
+  4 4 9 1
+  5 4 11 1
+  6 4 13 1
+  7 5 10 1
+  8 5 11 1
+  9 5 14 1
+  10 6 7 1
+  11 6 8 1
+  12 6 15 1
+  13 8 9 1
+  14 8 10 2
+  15 10 12 1
+  :::
+ } 
+} 
+
+f_m_ct { 
+ s_m_title
+ s_m_entry_id
+ s_m_entry_name
+ i_sd_PUBCHEM\_COMPOUND\_CID
+ i_sd_PUBCHEM\_COMPOUND\_CANONICALIZED
+ i_sd_PUBCHEM\_CACTVS\_COMPLEXITY
+ i_sd_PUBCHEM\_CACTVS\_HBOND\_ACCEPTOR
+ i_sd_PUBCHEM\_CACTVS\_HBOND\_DONOR
+ i_sd_PUBCHEM\_CACTVS\_ROTATABLE\_BOND
+ s_sd_PUBCHEM\_CACTVS\_SUBSKEYS
+ s_sd_PUBCHEM\_IUPAC\_OPENEYE\_NAME
+ s_sd_PUBCHEM\_IUPAC\_CAS\_NAME
+ s_sd_PUBCHEM\_IUPAC\_NAME\_MARKUP
+ s_sd_PUBCHEM\_IUPAC\_NAME
+ s_sd_PUBCHEM\_IUPAC\_SYSTEMATIC\_NAME
+ s_sd_PUBCHEM\_IUPAC\_TRADITIONAL\_NAME
+ s_sd_PUBCHEM\_IUPAC\_INCHI
+ s_sd_PUBCHEM\_IUPAC\_INCHIKEY
+ r_sd_PUBCHEM\_XLOGP3\_AA
+ r_sd_PUBCHEM\_EXACT\_MASS
+ s_sd_PUBCHEM\_MOLECULAR\_FORMULA
+ r_sd_PUBCHEM\_MOLECULAR\_WEIGHT
+ s_sd_PUBCHEM\_SMILES
+ s_sd_PUBCHEM\_OPENEYE\_CAN\_SMILES
+ s_sd_PUBCHEM\_OPENEYE\_ISO\_SMILES
+ r_sd_PUBCHEM\_CACTVS\_TPSA
+ r_sd_PUBCHEM\_MONOISOTOPIC\_WEIGHT
+ i_sd_PUBCHEM\_TOTAL\_CHARGE
+ i_sd_PUBCHEM\_HEAVY\_ATOM\_COUNT
+ i_sd_PUBCHEM\_ATOM\_DEF\_STEREO\_COUNT
+ i_sd_PUBCHEM\_ATOM\_UDEF\_STEREO\_COUNT
+ i_sd_PUBCHEM\_BOND\_DEF\_STEREO\_COUNT
+ i_sd_PUBCHEM\_BOND\_UDEF\_STEREO\_COUNT
+ i_sd_PUBCHEM\_ISOTOPIC\_ATOM\_COUNT
+ i_sd_PUBCHEM\_COMPONENT\_COUNT
+ i_sd_PUBCHEM\_CACTVS\_TAUTO\_COUNT
+ s_sd_PUBCHEM\_COORDINATE\_TYPE
+ s_sd_PUBCHEM\_BONDANNOTATIONS
+ b_sd_chiral_flag
+ i_sd_version
+ s_m_Source_Path
+ s_m_Source_File
+ i_m_Source_File_Index
+ s_j_original_title
+ r_f3d_energy
+ i_f3d_flags
+ s_ff_OPLSVersion
+ r_ff_RMS_Derivative
+ b_ff_Minimization_Converged
+ s_mopac_SemiEmpirical_Method
+ r_mopac_MOPAC_Heat_of_Formation
+ s_j_jname
+ s_j_genealogy
+ i_j_TautomerStage1_index
+ r_j_multistage_ediff
+ s_st_EZ_1
+ i_j_TautomerStage2_index
+ r_NDDO_NDDO_Heat_of_Formation
+ s_NDDO_SemiEmpirical_Method
+ i_j_SemiEmpStage1_index
+ i_m_Spin_multiplicity
+ s_j_Task
+ s_j_Jaguar_input_file
+ s_j_Jaguar_restart_input_file
+ s_j_Jaguar_restart_mae_file
+ s_j_Jaguar_output_file
+ s_j_Jaguar_log_file
+ s_j_Jaguar_mae_file
+ s_j_QM_Method
+ s_j_QM_Basis
+ i_j_Number_of_canonical_orbitals
+ i_j_Geometry_convergence_category
+ r_j_Gas_Phase_Energy
+ r_j_Solution_Phase_Energy
+ r_j_Final_Energy
+ r_j_Solvation_Energy_(kcal/mol)
+ r_j_HOMO
+ r_j_LUMO
+ i_j_QMStage1_index
+ i_j_QMStage2_index
+ s_m_subgroupid
+ b_m_subgroup_collapsed
+ i_m_ct_format
+ :::
+ 227928_3 
+  2 
+  Structure2D_COMPOUND_CID_227928.1 
+  227928
+  1
+  246
+  5
+  3
+  1
+  AAADcYBjsAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAHgAcAAAACAjBgAQBAALiAACJAAVWUACAAAAAAgAQAICIAECAQAAAAAAQAAAIByIAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA== 
+  "N-(2,4-dioxo-1H-pyrimidin-5-yl)nitrous amide" 
+  "N-(2,4-dioxo-1H-pyrimidin-5-yl)nitrous amide" 
+  "<I>N</I>-(2,4-dioxo-1<I>H</I>-pyrimidin-5-yl)nitrous amide" 
+  "N-(2,4-dioxo-1H-pyrimidin-5-yl)nitrous amide" 
+  "N-[2,4-bis(oxidanylidene)-1H-pyrimidin-5-yl]nitrous amide" 
+  "N-(2,4-diketo-1H-pyrimidin-5-yl)nitrous amide" 
+  InChI=1S/C4H4N4O3/c9-3-2(7-8-11)1-5-4(10)6-3/h1H,(H,7,11)(H2,5,6,9,10) 
+  OIXPJPUFFXAGLN-UHFFFAOYSA-N 
+  -1.1
+  156.02834
+  C4H4N4O3 
+  156.1
+  C1=C(C(=O)NC(=O)N1)NN=O 
+  C1=C(C(=O)NC(=O)N1)NN=O 
+  C1=C(C(=O)NC(=O)N1)NN=O 
+  99.7
+  156.02834
+  0
+  11
+  0
+  0
+  0
+  0
+  0
+  1
+  -1
+  "1
+5
+255" 
+  "4  11  8
+4  9  8
+5  10  8
+5  11  8
+8  10  8
+8  9  8" 
+  0
+  0
+  /home/vm/Downloads 
+  Structure2D_COMPOUND_CID_227928.sdf 
+  1
+  227928 
+  0
+  0
+  OPLS4 
+  0.0349895170407772
+  1
+  PM7 
+  -66.63182
+  227928_8_isomer8 
+  1_8_5_8_3 
+  1
+  8.49132149445359
+  8_6_7_3_E 
+  8
+  -16.65873
+  PM3 
+  5
+  1
+  "Single Point" 
+  /mnt/Data_4/RESEARCH/UHRF1/JAGUAR/nsc20116_taut/nsc20116_taut_QMStage2_workdir/227928_8_isomer8.in 
+  /mnt/Data_4/RESEARCH/UHRF1/JAGUAR/nsc20116_taut/nsc20116_taut_QMStage2_workdir/227928_8_isomer8.01.in 
+  /mnt/Data_4/RESEARCH/UHRF1/JAGUAR/nsc20116_taut/nsc20116_taut_QMStage2_workdir/227928_8_isomer8.01.mae 
+  /mnt/Data_4/RESEARCH/UHRF1/JAGUAR/nsc20116_taut/nsc20116_taut_QMStage2_workdir/227928_8_isomer8.out 
+  /mnt/Data_4/RESEARCH/UHRF1/JAGUAR/nsc20116_taut/nsc20116_taut_QMStage2_workdir/227928_8_isomer8.log 
+  /mnt/Data_4/RESEARCH/UHRF1/JAGUAR/nsc20116_taut/nsc20116_taut_QMStage2_workdir/227928_8_isomer8.mae 
+  DFT(m06-2x)/SOLV 
+  cc-pvtz(-f) 
+  287
+  3
+  -599.427678732508
+  -599.470105634152
+  -599.470105634152
+  -26.6232825642478
+  -0.304612412476843
+  -0.0555500156123214
+  8
+  3
+  nsc20116_taut_QMStage2-out.mae 
+  1
+  2
+ m_depend[19] { 
+  # First column is dependency index #
+  i_m_depend_dependency
+  s_m_depend_property
+  :::
+  1 10 s_st_EZ_1 
+  2 20 i_m_Spin_multiplicity 
+  3 20 s_j_Task 
+  4 20 s_j_Jaguar_input_file 
+  5 20 s_j_Jaguar_restart_input_file 
+  6 20 s_j_Jaguar_restart_mae_file 
+  7 20 s_j_Jaguar_output_file 
+  8 20 s_j_Jaguar_log_file 
+  9 20 s_j_Jaguar_mae_file 
+  10 20 s_j_QM_Method 
+  11 20 s_j_QM_Basis 
+  12 20 i_j_Number_of_canonical_orbitals 
+  13 20 i_j_Geometry_convergence_category 
+  14 20 r_j_Gas_Phase_Energy 
+  15 20 r_j_Solution_Phase_Energy 
+  16 20 r_j_Final_Energy 
+  17 20 r_j_Solvation_Energy_(kcal/mol) 
+  18 20 r_j_HOMO 
+  19 20 r_j_LUMO 
+  :::
+ } 
+ m_atom[15] { 
+  # First column is atom index #
+  i_m_mmod_type
+  r_m_x_coord
+  r_m_y_coord
+  r_m_z_coord
+  i_m_residue_number
+  i_m_color
+  r_m_charge1
+  r_m_charge2
+  i_m_atomic_number
+  s_m_color_rgb
+  s_m_atom_name
+  r_j_ESP_Charges
+  s_j_Tautomer_site
+  :::
+  1 16 -1.746076 -1.465457 -0.030862 900 70 -0.52216 -0.52216 8 FF2F2F  O1  -0.522164413907709 donor 
+  2 15 -1.794032 3.091040 -0.041101 900 70 -0.71309 -0.71309 8 FF2F2F  O2  -0.713089524892158 acceptor 
+  3 16 2.632632 -2.933002 -0.034696 900 70 -0.49904 -0.49904 8 FF2F2F  O3  -0.499044991930371 donor 
+  4 25 -1.804969 0.789857 -0.035490 900 43 -0.85399 -0.85399 7 5757FF  N4  -0.853988785693589 acceptor 
+  5 25 0.229579 2.031665 -0.029985 900 43 -0.60501 -0.60501 7 5757FF  N5  -0.605008491047081 donor 
+  6 25 0.959728 -1.591317 -0.025999 900 43 0.00241 0.00241 7 5757FF  N6  0.00241189015903915 acceptor 
+  7 25 2.204202 -1.612715 -0.032227 900 43 -0.05905 -0.05905 7 5757FF  N7  -0.0590502041509455 acceptor 
+  8 2 0.358123 -0.321978 -0.024541 900 2 -0.26148 -0.26148 6 A0A0A0  C8  -0.2614808159496 <>
+  9 2 -1.079984 -0.309123 -0.030344 900 2 0.76795 0.76795 6 A0A0A0  C9  0.767946175944857 <>
+  10 2 0.974515 0.910706 -0.026528 900 2 0.34437 0.34437 6 A0A0A0  C10  0.344368888755837 <>
+  11 2 -1.186527 2.019580 -0.035843 900 2 0.95819 0.95819 6 A0A0A0  C11  0.95818849415457 <>
+  12 41 2.053070 1.021176 -0.022922 900 21 0.11585 0.11585 1 FFFFFF  H12  0.115854043368023 <>
+  13 43 0.680548 2.948597 -0.027597 900 21 0.44573 0.44573 1 FFFFFF  H13  0.44572740879952 <>
+  14 42 -1.109146 -2.211435 -0.026707 900 21 0.37862 0.37862 1 FFFFFF  H14  0.378617123716935 <>
+  15 42 3.608360 -2.864495 -0.043709 900 21 0.50071 0.50071 1 FFFFFF  H15  0.500713202672673 <>
+  :::
+ } 
+ m_bond[15] { 
+  # First column is bond index #
+  i_m_from
+  i_m_to
+  i_m_order
+  :::
+  1 1 9 1
+  2 1 14 1
+  3 2 11 2
+  4 3 7 1
+  5 3 15 1
+  6 4 9 2
+  7 4 11 1
+  8 5 10 1
+  9 5 11 1
+  10 5 13 1
+  11 6 7 2
+  12 6 8 1
+  13 8 9 1
+  14 8 10 2
+  15 10 12 1
+  :::
+ } 
+} 
+
+f_m_ct { 
+ s_m_title
+ s_m_entry_id
+ s_m_entry_name
+ i_sd_PUBCHEM\_COMPOUND\_CID
+ i_sd_PUBCHEM\_COMPOUND\_CANONICALIZED
+ i_sd_PUBCHEM\_CACTVS\_COMPLEXITY
+ i_sd_PUBCHEM\_CACTVS\_HBOND\_ACCEPTOR
+ i_sd_PUBCHEM\_CACTVS\_HBOND\_DONOR
+ i_sd_PUBCHEM\_CACTVS\_ROTATABLE\_BOND
+ s_sd_PUBCHEM\_CACTVS\_SUBSKEYS
+ s_sd_PUBCHEM\_IUPAC\_OPENEYE\_NAME
+ s_sd_PUBCHEM\_IUPAC\_CAS\_NAME
+ s_sd_PUBCHEM\_IUPAC\_NAME\_MARKUP
+ s_sd_PUBCHEM\_IUPAC\_NAME
+ s_sd_PUBCHEM\_IUPAC\_SYSTEMATIC\_NAME
+ s_sd_PUBCHEM\_IUPAC\_TRADITIONAL\_NAME
+ s_sd_PUBCHEM\_IUPAC\_INCHI
+ s_sd_PUBCHEM\_IUPAC\_INCHIKEY
+ r_sd_PUBCHEM\_XLOGP3\_AA
+ r_sd_PUBCHEM\_EXACT\_MASS
+ s_sd_PUBCHEM\_MOLECULAR\_FORMULA
+ r_sd_PUBCHEM\_MOLECULAR\_WEIGHT
+ s_sd_PUBCHEM\_SMILES
+ s_sd_PUBCHEM\_OPENEYE\_CAN\_SMILES
+ s_sd_PUBCHEM\_OPENEYE\_ISO\_SMILES
+ r_sd_PUBCHEM\_CACTVS\_TPSA
+ r_sd_PUBCHEM\_MONOISOTOPIC\_WEIGHT
+ i_sd_PUBCHEM\_TOTAL\_CHARGE
+ i_sd_PUBCHEM\_HEAVY\_ATOM\_COUNT
+ i_sd_PUBCHEM\_ATOM\_DEF\_STEREO\_COUNT
+ i_sd_PUBCHEM\_ATOM\_UDEF\_STEREO\_COUNT
+ i_sd_PUBCHEM\_BOND\_DEF\_STEREO\_COUNT
+ i_sd_PUBCHEM\_BOND\_UDEF\_STEREO\_COUNT
+ i_sd_PUBCHEM\_ISOTOPIC\_ATOM\_COUNT
+ i_sd_PUBCHEM\_COMPONENT\_COUNT
+ i_sd_PUBCHEM\_CACTVS\_TAUTO\_COUNT
+ s_sd_PUBCHEM\_COORDINATE\_TYPE
+ s_sd_PUBCHEM\_BONDANNOTATIONS
+ b_sd_chiral_flag
+ i_sd_version
+ s_m_Source_Path
+ s_m_Source_File
+ i_m_Source_File_Index
+ s_j_original_title
+ r_f3d_energy
+ i_f3d_flags
+ s_ff_OPLSVersion
+ r_ff_RMS_Derivative
+ b_ff_Minimization_Converged
+ s_mopac_SemiEmpirical_Method
+ r_mopac_MOPAC_Heat_of_Formation
+ s_j_jname
+ s_j_genealogy
+ i_j_TautomerStage1_index
+ r_j_multistage_ediff
+ s_st_EZ_1
+ i_j_TautomerStage2_index
+ r_NDDO_NDDO_Heat_of_Formation
+ s_NDDO_SemiEmpirical_Method
+ i_j_SemiEmpStage1_index
+ i_m_Spin_multiplicity
+ s_j_Task
+ s_j_Jaguar_input_file
+ s_j_Jaguar_restart_input_file
+ s_j_Jaguar_restart_mae_file
+ s_j_Jaguar_output_file
+ s_j_Jaguar_log_file
+ s_j_Jaguar_mae_file
+ s_j_QM_Method
+ s_j_QM_Basis
+ i_j_Number_of_canonical_orbitals
+ i_j_Geometry_convergence_category
+ r_j_Gas_Phase_Energy
+ r_j_Solution_Phase_Energy
+ r_j_Final_Energy
+ r_j_Solvation_Energy_(kcal/mol)
+ r_j_HOMO
+ r_j_LUMO
+ i_j_QMStage1_index
+ i_j_QMStage2_index
+ s_m_subgroupid
+ b_m_subgroup_collapsed
+ i_m_ct_format
+ :::
+ 227928_4 
+  2 
+  Structure2D_COMPOUND_CID_227928.1 
+  227928
+  1
+  246
+  5
+  3
+  1
+  AAADcYBjsAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAHgAcAAAACAjBgAQBAALiAACJAAVWUACAAAAAAgAQAICIAECAQAAAAAAQAAAIByIAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA== 
+  "N-(2,4-dioxo-1H-pyrimidin-5-yl)nitrous amide" 
+  "N-(2,4-dioxo-1H-pyrimidin-5-yl)nitrous amide" 
+  "<I>N</I>-(2,4-dioxo-1<I>H</I>-pyrimidin-5-yl)nitrous amide" 
+  "N-(2,4-dioxo-1H-pyrimidin-5-yl)nitrous amide" 
+  "N-[2,4-bis(oxidanylidene)-1H-pyrimidin-5-yl]nitrous amide" 
+  "N-(2,4-diketo-1H-pyrimidin-5-yl)nitrous amide" 
+  InChI=1S/C4H4N4O3/c9-3-2(7-8-11)1-5-4(10)6-3/h1H,(H,7,11)(H2,5,6,9,10) 
+  OIXPJPUFFXAGLN-UHFFFAOYSA-N 
+  -1.1
+  156.02834
+  C4H4N4O3 
+  156.1
+  C1=C(C(=O)NC(=O)N1)NN=O 
+  C1=C(C(=O)NC(=O)N1)NN=O 
+  C1=C(C(=O)NC(=O)N1)NN=O 
+  99.7
+  156.02834
+  0
+  11
+  0
+  0
+  0
+  0
+  0
+  1
+  -1
+  "1
+5
+255" 
+  "4  11  8
+4  9  8
+5  10  8
+5  11  8
+8  10  8
+8  9  8" 
+  0
+  0
+  /home/vm/Downloads 
+  Structure2D_COMPOUND_CID_227928.sdf 
+  1
+  227928 
+  0
+  0
+  OPLS4 
+  0.0310086657468815
+  1
+  PM7 
+  -66.63182
+  227928_3_isomer3 
+  1_36_14_3_4 
+  1
+  9.59762046195101
+  8_6_7_3_E 
+  36
+  -6.22746
+  PM3 
+  14
+  1
+  "Single Point" 
+  /mnt/Data_4/RESEARCH/UHRF1/JAGUAR/nsc20116_taut/nsc20116_taut_QMStage2_workdir/227928_3_isomer3.in 
+  /mnt/Data_4/RESEARCH/UHRF1/JAGUAR/nsc20116_taut/nsc20116_taut_QMStage2_workdir/227928_3_isomer3.01.in 
+  /mnt/Data_4/RESEARCH/UHRF1/JAGUAR/nsc20116_taut/nsc20116_taut_QMStage2_workdir/227928_3_isomer3.01.mae 
+  /mnt/Data_4/RESEARCH/UHRF1/JAGUAR/nsc20116_taut/nsc20116_taut_QMStage2_workdir/227928_3_isomer3.out 
+  /mnt/Data_4/RESEARCH/UHRF1/JAGUAR/nsc20116_taut/nsc20116_taut_QMStage2_workdir/227928_3_isomer3.log 
+  /mnt/Data_4/RESEARCH/UHRF1/JAGUAR/nsc20116_taut/nsc20116_taut_QMStage2_workdir/227928_3_isomer3.mae 
+  DFT(m06-2x)/SOLV 
+  cc-pvtz(-f) 
+  287
+  3
+  -599.416646799614
+  -599.468342634527
+  -599.468342634527
+  -32.4396259678596
+  -0.300556369205507
+  -0.0513610110510929
+  3
+  4
+  nsc20116_taut_QMStage2-out.mae 
+  1
+  2
+ m_depend[19] { 
+  # First column is dependency index #
+  i_m_depend_dependency
+  s_m_depend_property
+  :::
+  1 10 s_st_EZ_1 
+  2 20 i_m_Spin_multiplicity 
+  3 20 s_j_Task 
+  4 20 s_j_Jaguar_input_file 
+  5 20 s_j_Jaguar_restart_input_file 
+  6 20 s_j_Jaguar_restart_mae_file 
+  7 20 s_j_Jaguar_output_file 
+  8 20 s_j_Jaguar_log_file 
+  9 20 s_j_Jaguar_mae_file 
+  10 20 s_j_QM_Method 
+  11 20 s_j_QM_Basis 
+  12 20 i_j_Number_of_canonical_orbitals 
+  13 20 i_j_Geometry_convergence_category 
+  14 20 r_j_Gas_Phase_Energy 
+  15 20 r_j_Solution_Phase_Energy 
+  16 20 r_j_Final_Energy 
+  17 20 r_j_Solvation_Energy_(kcal/mol) 
+  18 20 r_j_HOMO 
+  19 20 r_j_LUMO 
+  :::
+ } 
+ m_atom[15] { 
+  # First column is atom index #
+  i_m_mmod_type
+  r_m_x_coord
+  r_m_y_coord
+  r_m_z_coord
+  i_m_residue_number
+  i_m_color
+  r_m_charge1
+  r_m_charge2
+  i_m_atomic_number
+  i_m_formal_charge
+  s_m_color_rgb
+  s_m_atom_name
+  r_j_ESP_Charges
+  s_j_Tautomer_site
+  :::
+  1 15 -1.533599 1.774797 -0.054250 900 70 -0.60677 -0.60677 8 0 FF2F2F  O1  -0.606770511308427 acceptor 
+  2 15 3.036828 1.823367 0.307857 900 70 -0.64032 -0.64032 8 0 FF2F2F  O2  -0.640323304157551 acceptor 
+  3 18 -2.691834 -2.894454 0.007351 900 70 -0.59875 -0.59875 8 -1 FF2F2F  O3  -0.598750185823002 acceptor 
+  4 25 0.746143 1.769552 0.128536 900 43 -0.54770 -0.54770 7 0 5757FF  N4  -0.547702475010379 donor 
+  5 25 1.992046 -0.188786 -0.059925 900 43 -0.46377 -0.46377 7 0 5757FF  N5  -0.46376597317649 donor 
+  6 25 -1.598537 -1.006066 -0.391518 900 43 -0.55062 -0.55062 7 0 5757FF  N6  -0.550620544487108 acceptor 
+  7 31 -1.726013 -2.124903 0.200800 900 43 0.67872 0.67872 7 1 5757FF  N7  0.678717168368513 donor 
+  8 2 -0.386074 -0.328180 -0.174783 900 2 0.06891 0.06891 6 0 A0A0A0  C8  0.0689060934694388 <>
+  9 2 -0.485447 1.132565 -0.038022 900 2 0.63749 0.63749 6 0 A0A0A0  C9  0.63748793202201 <>
+  10 2 0.846056 -0.917823 -0.218134 900 2 0.02756 0.02756 6 0 A0A0A0  C10  0.0275591635343096 <>
+  11 2 2.003438 1.184445 0.142429 900 2 0.72974 0.72974 6 0 A0A0A0  C11  0.729744580968148 <>
+  12 41 0.977989 -1.977473 -0.420542 900 21 0.23047 0.23047 1 0 FFFFFF  H12  0.230472423287558 <>
+  13 43 0.723223 2.782787 0.256222 900 21 0.40643 0.40643 1 0 FFFFFF  H13  0.406431470966115 <>
+  14 43 2.901334 -0.647455 -0.109335 900 21 0.42092 0.42092 1 0 FFFFFF  H14  0.420923993499613 <>
+  15 44 -1.016210 -2.442761 0.893355 900 21 0.20769 0.20769 1 0 FFFFFF  H15  0.207690167847253 <>
+  :::
+ } 
+ m_bond[15] { 
+  # First column is bond index #
+  i_m_from
+  i_m_to
+  i_m_order
+  :::
+  1 1 9 2
+  2 2 11 2
+  3 3 7 1
+  4 4 9 1
+  5 4 11 1
+  6 4 13 1
+  7 5 10 1
+  8 5 11 1
+  9 5 14 1
+  10 6 7 2
+  11 6 8 1
+  12 7 15 1
+  13 8 9 1
+  14 8 10 2
+  15 10 12 1
+  :::
+ } 
+} 
+
+f_m_ct { 
+ s_m_title
+ s_m_entry_id
+ s_m_entry_name
+ i_sd_PUBCHEM\_COMPOUND\_CID
+ i_sd_PUBCHEM\_COMPOUND\_CANONICALIZED
+ i_sd_PUBCHEM\_CACTVS\_COMPLEXITY
+ i_sd_PUBCHEM\_CACTVS\_HBOND\_ACCEPTOR
+ i_sd_PUBCHEM\_CACTVS\_HBOND\_DONOR
+ i_sd_PUBCHEM\_CACTVS\_ROTATABLE\_BOND
+ s_sd_PUBCHEM\_CACTVS\_SUBSKEYS
+ s_sd_PUBCHEM\_IUPAC\_OPENEYE\_NAME
+ s_sd_PUBCHEM\_IUPAC\_CAS\_NAME
+ s_sd_PUBCHEM\_IUPAC\_NAME\_MARKUP
+ s_sd_PUBCHEM\_IUPAC\_NAME
+ s_sd_PUBCHEM\_IUPAC\_SYSTEMATIC\_NAME
+ s_sd_PUBCHEM\_IUPAC\_TRADITIONAL\_NAME
+ s_sd_PUBCHEM\_IUPAC\_INCHI
+ s_sd_PUBCHEM\_IUPAC\_INCHIKEY
+ r_sd_PUBCHEM\_XLOGP3\_AA
+ r_sd_PUBCHEM\_EXACT\_MASS
+ s_sd_PUBCHEM\_MOLECULAR\_FORMULA
+ r_sd_PUBCHEM\_MOLECULAR\_WEIGHT
+ s_sd_PUBCHEM\_SMILES
+ s_sd_PUBCHEM\_OPENEYE\_CAN\_SMILES
+ s_sd_PUBCHEM\_OPENEYE\_ISO\_SMILES
+ r_sd_PUBCHEM\_CACTVS\_TPSA
+ r_sd_PUBCHEM\_MONOISOTOPIC\_WEIGHT
+ i_sd_PUBCHEM\_TOTAL\_CHARGE
+ i_sd_PUBCHEM\_HEAVY\_ATOM\_COUNT
+ i_sd_PUBCHEM\_ATOM\_DEF\_STEREO\_COUNT
+ i_sd_PUBCHEM\_ATOM\_UDEF\_STEREO\_COUNT
+ i_sd_PUBCHEM\_BOND\_DEF\_STEREO\_COUNT
+ i_sd_PUBCHEM\_BOND\_UDEF\_STEREO\_COUNT
+ i_sd_PUBCHEM\_ISOTOPIC\_ATOM\_COUNT
+ i_sd_PUBCHEM\_COMPONENT\_COUNT
+ i_sd_PUBCHEM\_CACTVS\_TAUTO\_COUNT
+ s_sd_PUBCHEM\_COORDINATE\_TYPE
+ s_sd_PUBCHEM\_BONDANNOTATIONS
+ b_sd_chiral_flag
+ i_sd_version
+ s_m_Source_Path
+ s_m_Source_File
+ i_m_Source_File_Index
+ s_j_original_title
+ s_ff_OPLSVersion
+ r_ff_RMS_Derivative
+ b_ff_Minimization_Converged
+ s_j_genealogy
+ i_j_TautomerStage_index
+ r_j_multistage_ediff
+ r_f3d_energy
+ i_f3d_flags
+ s_mopac_SemiEmpirical_Method
+ r_mopac_MOPAC_Heat_of_Formation
+ s_j_jname
+ i_j_TautomerStage1_index
+ s_st_Chirality_1
+ i_j_TautomerStage2_index
+ r_NDDO_NDDO_Heat_of_Formation
+ s_NDDO_SemiEmpirical_Method
+ i_j_SemiEmpStage1_index
+ i_m_Spin_multiplicity
+ s_j_Task
+ s_j_Jaguar_input_file
+ s_j_Jaguar_restart_input_file
+ s_j_Jaguar_restart_mae_file
+ s_j_Jaguar_output_file
+ s_j_Jaguar_log_file
+ s_j_Jaguar_mae_file
+ s_j_QM_Method
+ s_j_QM_Basis
+ i_j_Number_of_canonical_orbitals
+ i_j_Geometry_convergence_category
+ r_j_Gas_Phase_Energy
+ r_j_Solution_Phase_Energy
+ r_j_Final_Energy
+ r_j_Solvation_Energy_(kcal/mol)
+ r_j_HOMO
+ r_j_LUMO
+ i_j_QMStage1_index
+ i_j_QMStage2_index
+ s_m_subgroupid
+ b_m_subgroup_collapsed
+ i_m_ct_format
+ :::
+ 227928_5 
+  2 
+  Structure2D_COMPOUND_CID_227928.1 
+  227928
+  1
+  246
+  5
+  3
+  1
+  AAADcYBjsAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAHgAcAAAACAjBgAQBAALiAACJAAVWUACAAAAAAgAQAICIAECAQAAAAAAQAAAIByIAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA== 
+  "N-(2,4-dioxo-1H-pyrimidin-5-yl)nitrous amide" 
+  "N-(2,4-dioxo-1H-pyrimidin-5-yl)nitrous amide" 
+  "<I>N</I>-(2,4-dioxo-1<I>H</I>-pyrimidin-5-yl)nitrous amide" 
+  "N-(2,4-dioxo-1H-pyrimidin-5-yl)nitrous amide" 
+  "N-[2,4-bis(oxidanylidene)-1H-pyrimidin-5-yl]nitrous amide" 
+  "N-(2,4-diketo-1H-pyrimidin-5-yl)nitrous amide" 
+  InChI=1S/C4H4N4O3/c9-3-2(7-8-11)1-5-4(10)6-3/h1H,(H,7,11)(H2,5,6,9,10) 
+  OIXPJPUFFXAGLN-UHFFFAOYSA-N 
+  -1.1
+  156.02834
+  C4H4N4O3 
+  156.1
+  C1=C(C(=O)NC(=O)N1)NN=O 
+  C1=C(C(=O)NC(=O)N1)NN=O 
+  C1=C(C(=O)NC(=O)N1)NN=O 
+  99.7
+  156.02834
+  0
+  11
+  0
+  0
+  0
+  0
+  0
+  1
+  -1
+  "1
+5
+255" 
+  "4  11  8
+4  9  8
+5  10  8
+5  11  8
+8  10  8
+8  9  8" 
+  0
+  0
+  /home/vm/Downloads 
+  Structure2D_COMPOUND_CID_227928.sdf 
+  1
+  227928 
+  OPLS4 
+  0.049111648746486
+  1
+  1_5_173_10_7_5 
+  1
+  9.8108646539622
+  0
+  0
+  PM7 
+  -34.79097
+  227928_7_isomer7 
+  5
+  10_R_3_5_8_12 
+  173
+  -7.18766
+  PM3 
+  10
+  1
+  "Single Point" 
+  /mnt/Data_4/RESEARCH/UHRF1/JAGUAR/nsc20116_taut/nsc20116_taut_QMStage2_workdir/227928_7_isomer7.in 
+  /mnt/Data_4/RESEARCH/UHRF1/JAGUAR/nsc20116_taut/nsc20116_taut_QMStage2_workdir/227928_7_isomer7.01.in 
+  /mnt/Data_4/RESEARCH/UHRF1/JAGUAR/nsc20116_taut/nsc20116_taut_QMStage2_workdir/227928_7_isomer7.01.mae 
+  /mnt/Data_4/RESEARCH/UHRF1/JAGUAR/nsc20116_taut/nsc20116_taut_QMStage2_workdir/227928_7_isomer7.out 
+  /mnt/Data_4/RESEARCH/UHRF1/JAGUAR/nsc20116_taut/nsc20116_taut_QMStage2_workdir/227928_7_isomer7.log 
+  /mnt/Data_4/RESEARCH/UHRF1/JAGUAR/nsc20116_taut/nsc20116_taut_QMStage2_workdir/227928_7_isomer7.mae 
+  DFT(m06-2x)/SOLV 
+  cc-pvtz(-f) 
+  287
+  0
+  -599.427498208929
+  -599.468002808276
+  -599.468002808276
+  -25.4170196686216
+  -0.32334971765258
+  -0.050582841948253
+  7
+  5
+  nsc20116_taut_QMStage2-out.mae 
+  1
+  2
+ m_depend[19] { 
+  # First column is dependency index #
+  i_m_depend_dependency
+  s_m_depend_property
+  :::
+  1 10 s_st_Chirality_1 
+  2 20 i_m_Spin_multiplicity 
+  3 20 s_j_Task 
+  4 20 s_j_Jaguar_input_file 
+  5 20 s_j_Jaguar_restart_input_file 
+  6 20 s_j_Jaguar_restart_mae_file 
+  7 20 s_j_Jaguar_output_file 
+  8 20 s_j_Jaguar_log_file 
+  9 20 s_j_Jaguar_mae_file 
+  10 20 s_j_QM_Method 
+  11 20 s_j_QM_Basis 
+  12 20 i_j_Number_of_canonical_orbitals 
+  13 20 i_j_Geometry_convergence_category 
+  14 20 r_j_Gas_Phase_Energy 
+  15 20 r_j_Solution_Phase_Energy 
+  16 20 r_j_Final_Energy 
+  17 20 r_j_Solvation_Energy_(kcal/mol) 
+  18 20 r_j_HOMO 
+  19 20 r_j_LUMO 
+  :::
+ } 
+ m_atom[15] { 
+  # First column is atom index #
+  i_m_mmod_type
+  r_m_x_coord
+  r_m_y_coord
+  r_m_z_coord
+  i_m_residue_number
+  i_m_color
+  r_m_charge1
+  r_m_charge2
+  i_m_atomic_number
+  s_m_color_rgb
+  s_m_atom_name
+  r_j_ESP_Charges
+  s_j_Tautomer_site
+  b_st_NoSrcChirality
+  :::
+  1 15 0.110756 0.036344 -0.546493 900 70 -0.55076 -0.55076 8 FF2F2F  O1  -0.550764253436085 acceptor  <>
+  2 15 3.564870 -2.575693 0.916093 900 70 -0.61866 -0.61866 8 FF2F2F  O2  -0.618664659372342 acceptor  <>
+  3 16 3.933774 2.061964 1.241349 900 70 -0.39736 -0.39736 8 FF2F2F  O3  -0.397356694194443 <> <>
+  4 25 1.914467 -1.235504 0.081630 900 43 -0.43817 -0.43817 7 5757FF  N4  -0.43817480607528 donor  <>
+  5 25 3.947923 -0.320580 0.904020 900 43 -0.65947 -0.65947 7 5757FF  N5  -0.659473634064087 donor  <>
+  6 25 1.679265 2.175855 0.846482 900 43 -0.30737 -0.30737 7 5757FF  N6  -0.307368818253088 acceptor  <>
+  7 25 2.726823 2.912825 1.270482 900 43 -0.31716 -0.31716 7 5757FF  N7  -0.317164138860049 donor  <>
+  8 2 2.106506 1.102611 0.282997 900 2 0.20413 0.20413 6 A0A0A0  C8  0.20413318987603 acceptor  <>
+  9 2 1.260224 -0.035076 -0.129350 900 2 0.44828 0.44828 6 A0A0A0  C9  0.448284376645377 <> <>
+  10 3 3.608017 0.979092 0.358018 900 2 0.73284 0.73284 6 A0A0A0  C10  0.732841232654324 <> 1
+  11 2 3.188243 -1.436050 0.658206 900 2 0.64523 0.64523 6 A0A0A0  C11  0.64523287353264 <> <>
+  12 41 4.109506 1.140281 -0.608191 900 21 -0.02191 -0.02191 1 FFFFFF  H12  -0.0219086541117342 <> <>
+  13 43 1.387151 -2.090103 -0.103400 900 21 0.39329 0.39329 1 FFFFFF  H13  0.393288666621012 <> <>
+  14 43 4.929612 -0.514891 1.094072 900 21 0.40352 0.40352 1 FFFFFF  H14  0.403520725663179 <> <>
+  15 43 2.605036 3.230002 2.242950 900 21 0.48357 0.48357 1 FFFFFF  H15  0.483574593374547 <> <>
+  :::
+ } 
+ m_bond[16] { 
+  # First column is bond index #
+  i_m_from
+  i_m_to
+  i_m_order
+  :::
+  1 1 9 2
+  2 2 11 2
+  3 3 7 1
+  4 3 10 1
+  5 4 9 1
+  6 4 11 1
+  7 4 13 1
+  8 5 10 1
+  9 5 11 1
+  10 5 14 1
+  11 6 7 1
+  12 6 8 2
+  13 7 15 1
+  14 8 9 1
+  15 8 10 1
+  16 10 12 1
+  :::
+ } 
+} 
+
+f_m_ct { 
+ s_m_title
+ s_m_entry_id
+ s_m_entry_name
+ i_sd_PUBCHEM\_COMPOUND\_CID
+ i_sd_PUBCHEM\_COMPOUND\_CANONICALIZED
+ i_sd_PUBCHEM\_CACTVS\_COMPLEXITY
+ i_sd_PUBCHEM\_CACTVS\_HBOND\_ACCEPTOR
+ i_sd_PUBCHEM\_CACTVS\_HBOND\_DONOR
+ i_sd_PUBCHEM\_CACTVS\_ROTATABLE\_BOND
+ s_sd_PUBCHEM\_CACTVS\_SUBSKEYS
+ s_sd_PUBCHEM\_IUPAC\_OPENEYE\_NAME
+ s_sd_PUBCHEM\_IUPAC\_CAS\_NAME
+ s_sd_PUBCHEM\_IUPAC\_NAME\_MARKUP
+ s_sd_PUBCHEM\_IUPAC\_NAME
+ s_sd_PUBCHEM\_IUPAC\_SYSTEMATIC\_NAME
+ s_sd_PUBCHEM\_IUPAC\_TRADITIONAL\_NAME
+ s_sd_PUBCHEM\_IUPAC\_INCHI
+ s_sd_PUBCHEM\_IUPAC\_INCHIKEY
+ r_sd_PUBCHEM\_XLOGP3\_AA
+ r_sd_PUBCHEM\_EXACT\_MASS
+ s_sd_PUBCHEM\_MOLECULAR\_FORMULA
+ r_sd_PUBCHEM\_MOLECULAR\_WEIGHT
+ s_sd_PUBCHEM\_SMILES
+ s_sd_PUBCHEM\_OPENEYE\_CAN\_SMILES
+ s_sd_PUBCHEM\_OPENEYE\_ISO\_SMILES
+ r_sd_PUBCHEM\_CACTVS\_TPSA
+ r_sd_PUBCHEM\_MONOISOTOPIC\_WEIGHT
+ i_sd_PUBCHEM\_TOTAL\_CHARGE
+ i_sd_PUBCHEM\_HEAVY\_ATOM\_COUNT
+ i_sd_PUBCHEM\_ATOM\_DEF\_STEREO\_COUNT
+ i_sd_PUBCHEM\_ATOM\_UDEF\_STEREO\_COUNT
+ i_sd_PUBCHEM\_BOND\_DEF\_STEREO\_COUNT
+ i_sd_PUBCHEM\_BOND\_UDEF\_STEREO\_COUNT
+ i_sd_PUBCHEM\_ISOTOPIC\_ATOM\_COUNT
+ i_sd_PUBCHEM\_COMPONENT\_COUNT
+ i_sd_PUBCHEM\_CACTVS\_TAUTO\_COUNT
+ s_sd_PUBCHEM\_COORDINATE\_TYPE
+ s_sd_PUBCHEM\_BONDANNOTATIONS
+ b_sd_chiral_flag
+ i_sd_version
+ s_m_Source_Path
+ s_m_Source_File
+ i_m_Source_File_Index
+ s_j_original_title
+ s_ff_OPLSVersion
+ r_ff_RMS_Derivative
+ b_ff_Minimization_Converged
+ s_j_genealogy
+ i_j_TautomerStage_index
+ r_j_multistage_ediff
+ r_f3d_energy
+ i_f3d_flags
+ s_mopac_SemiEmpirical_Method
+ r_mopac_MOPAC_Heat_of_Formation
+ s_j_jname
+ i_j_TautomerStage1_index
+ s_st_Chirality_1
+ i_j_TautomerStage2_index
+ r_NDDO_NDDO_Heat_of_Formation
+ s_NDDO_SemiEmpirical_Method
+ i_j_SemiEmpStage1_index
+ i_m_Spin_multiplicity
+ s_j_Task
+ s_j_Jaguar_input_file
+ s_j_Jaguar_restart_input_file
+ s_j_Jaguar_restart_mae_file
+ s_j_Jaguar_output_file
+ s_j_Jaguar_log_file
+ s_j_Jaguar_mae_file
+ s_j_QM_Method
+ s_j_QM_Basis
+ i_j_Number_of_canonical_orbitals
+ i_j_Geometry_convergence_category
+ r_j_Gas_Phase_Energy
+ r_j_Solution_Phase_Energy
+ r_j_Final_Energy
+ r_j_Solvation_Energy_(kcal/mol)
+ r_j_HOMO
+ r_j_LUMO
+ i_j_QMStage1_index
+ i_j_QMStage2_index
+ s_m_subgroupid
+ b_m_subgroup_collapsed
+ i_m_ct_format
+ :::
+ 227928_6 
+  2 
+  Structure2D_COMPOUND_CID_227928.1 
+  227928
+  1
+  246
+  5
+  3
+  1
+  AAADcYBjsAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAHgAcAAAACAjBgAQBAALiAACJAAVWUACAAAAAAgAQAICIAECAQAAAAAAQAAAIByIAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA== 
+  "N-(2,4-dioxo-1H-pyrimidin-5-yl)nitrous amide" 
+  "N-(2,4-dioxo-1H-pyrimidin-5-yl)nitrous amide" 
+  "<I>N</I>-(2,4-dioxo-1<I>H</I>-pyrimidin-5-yl)nitrous amide" 
+  "N-(2,4-dioxo-1H-pyrimidin-5-yl)nitrous amide" 
+  "N-[2,4-bis(oxidanylidene)-1H-pyrimidin-5-yl]nitrous amide" 
+  "N-(2,4-diketo-1H-pyrimidin-5-yl)nitrous amide" 
+  InChI=1S/C4H4N4O3/c9-3-2(7-8-11)1-5-4(10)6-3/h1H,(H,7,11)(H2,5,6,9,10) 
+  OIXPJPUFFXAGLN-UHFFFAOYSA-N 
+  -1.1
+  156.02834
+  C4H4N4O3 
+  156.1
+  C1=C(C(=O)NC(=O)N1)NN=O 
+  C1=C(C(=O)NC(=O)N1)NN=O 
+  C1=C(C(=O)NC(=O)N1)NN=O 
+  99.7
+  156.02834
+  0
+  11
+  0
+  0
+  0
+  0
+  0
+  1
+  -1
+  "1
+5
+255" 
+  "4  11  8
+4  9  8
+5  10  8
+5  11  8
+8  10  8
+8  9  8" 
+  0
+  0
+  /home/vm/Downloads 
+  Structure2D_COMPOUND_CID_227928.sdf 
+  1
+  227928 
+  OPLS4 
+  0.0465122733507168
+  1
+  1_4_138_12_6_6 
+  1
+  9.8128629490966
+  0
+  0
+  PM7 
+  -34.80635
+  227928_6_isomer6 
+  4
+  10_S_3_5_8_12 
+  138
+  -7.06086
+  PM3 
+  12
+  1
+  "Single Point" 
+  /mnt/Data_4/RESEARCH/UHRF1/JAGUAR/nsc20116_taut/nsc20116_taut_QMStage2_workdir/227928_6_isomer6.in 
+  /mnt/Data_4/RESEARCH/UHRF1/JAGUAR/nsc20116_taut/nsc20116_taut_QMStage2_workdir/227928_6_isomer6.01.in 
+  /mnt/Data_4/RESEARCH/UHRF1/JAGUAR/nsc20116_taut/nsc20116_taut_QMStage2_workdir/227928_6_isomer6.01.mae 
+  /mnt/Data_4/RESEARCH/UHRF1/JAGUAR/nsc20116_taut/nsc20116_taut_QMStage2_workdir/227928_6_isomer6.out 
+  /mnt/Data_4/RESEARCH/UHRF1/JAGUAR/nsc20116_taut/nsc20116_taut_QMStage2_workdir/227928_6_isomer6.log 
+  /mnt/Data_4/RESEARCH/UHRF1/JAGUAR/nsc20116_taut/nsc20116_taut_QMStage2_workdir/227928_6_isomer6.mae 
+  DFT(m06-2x)/SOLV 
+  cc-pvtz(-f) 
+  287
+  0
+  -599.427493806784
+  -599.46799962379
+  -599.46799962379
+  -25.4177837616866
+  -0.323342549600869
+  -0.0505077515941466
+  6
+  6
+  nsc20116_taut_QMStage2-out.mae 
+  1
+  2
+ m_depend[19] { 
+  # First column is dependency index #
+  i_m_depend_dependency
+  s_m_depend_property
+  :::
+  1 10 s_st_Chirality_1 
+  2 20 i_m_Spin_multiplicity 
+  3 20 s_j_Task 
+  4 20 s_j_Jaguar_input_file 
+  5 20 s_j_Jaguar_restart_input_file 
+  6 20 s_j_Jaguar_restart_mae_file 
+  7 20 s_j_Jaguar_output_file 
+  8 20 s_j_Jaguar_log_file 
+  9 20 s_j_Jaguar_mae_file 
+  10 20 s_j_QM_Method 
+  11 20 s_j_QM_Basis 
+  12 20 i_j_Number_of_canonical_orbitals 
+  13 20 i_j_Geometry_convergence_category 
+  14 20 r_j_Gas_Phase_Energy 
+  15 20 r_j_Solution_Phase_Energy 
+  16 20 r_j_Final_Energy 
+  17 20 r_j_Solvation_Energy_(kcal/mol) 
+  18 20 r_j_HOMO 
+  19 20 r_j_LUMO 
+  :::
+ } 
+ m_atom[15] { 
+  # First column is atom index #
+  i_m_mmod_type
+  r_m_x_coord
+  r_m_y_coord
+  r_m_z_coord
+  i_m_residue_number
+  i_m_color
+  r_m_charge1
+  r_m_charge2
+  i_m_atomic_number
+  s_m_color_rgb
+  s_m_atom_name
+  r_j_ESP_Charges
+  s_j_Tautomer_site
+  b_st_NoSrcChirality
+  :::
+  1 15 0.111419 0.035849 0.547713 900 70 -0.55088 -0.55088 8 FF2F2F  O1  -0.550881869772383 acceptor  <>
+  2 15 3.564932 -2.576031 -0.917169 900 70 -0.61844 -0.61844 8 FF2F2F  O2  -0.618444761235404 acceptor  <>
+  3 16 3.934337 2.062026 -1.239450 900 70 -0.39711 -0.39711 8 FF2F2F  O3  -0.397105337117474 <> <>
+  4 25 1.914278 -1.236311 -0.082166 900 43 -0.43841 -0.43841 7 5757FF  N4  -0.438406868903878 donor  <>
+  5 25 3.947964 -0.321000 -0.903527 900 43 -0.65799 -0.65799 7 5757FF  N5  -0.657991083340507 donor  <>
+  6 25 1.679097 2.173819 -0.847714 900 43 -0.30667 -0.30667 7 5757FF  N6  -0.306666271374631 acceptor  <>
+  7 25 2.726276 2.911399 -1.271609 900 43 -0.31740 -0.31740 7 5757FF  N7  -0.317401286648482 donor  <>
+  8 2 2.106763 1.101791 -0.282482 900 2 0.20383 0.20383 6 A0A0A0  C8  0.203825719464535 acceptor  <>
+  9 2 1.260680 -0.035874 0.130021 900 2 0.44822 0.44822 6 A0A0A0  C9  0.448223036832345 <> <>
+  10 3 3.608305 0.978596 -0.357005 900 2 0.73184 0.73184 6 A0A0A0  C10  0.731841588916595 <> 1
+  11 2 3.188159 -1.436476 -0.658676 900 2 0.64386 0.64386 6 A0A0A0  C11  0.643858453053622 <> <>
+  12 41 4.110297 1.139375 0.608929 900 21 -0.02165 -0.02165 1 FFFFFF  H12  -0.0216549873129029 <> <>
+  13 43 1.386030 -2.090849 0.100776 900 21 0.39379 0.39379 1 FFFFFF  H13  0.393788681563313 <> <>
+  14 43 4.929326 -0.514943 -1.095603 900 21 0.40355 0.40355 1 FFFFFF  H14  0.403546014991698 <> <>
+  15 43 2.605867 3.226637 -2.244933 900 21 0.48347 0.48347 1 FFFFFF  H15  0.483468970883554 <> <>
+  :::
+ } 
+ m_bond[16] { 
+  # First column is bond index #
+  i_m_from
+  i_m_to
+  i_m_order
+  :::
+  1 1 9 2
+  2 2 11 2
+  3 3 7 1
+  4 3 10 1
+  5 4 9 1
+  6 4 11 1
+  7 4 13 1
+  8 5 10 1
+  9 5 11 1
+  10 5 14 1
+  11 6 7 1
+  12 6 8 2
+  13 7 15 1
+  14 8 9 1
+  15 8 10 1
+  16 10 12 1
+  :::
+ } 
+} 
+
+f_m_ct { 
+ s_m_title
+ s_m_entry_id
+ s_m_entry_name
+ i_sd_PUBCHEM\_COMPOUND\_CID
+ i_sd_PUBCHEM\_COMPOUND\_CANONICALIZED
+ i_sd_PUBCHEM\_CACTVS\_COMPLEXITY
+ i_sd_PUBCHEM\_CACTVS\_HBOND\_ACCEPTOR
+ i_sd_PUBCHEM\_CACTVS\_HBOND\_DONOR
+ i_sd_PUBCHEM\_CACTVS\_ROTATABLE\_BOND
+ s_sd_PUBCHEM\_CACTVS\_SUBSKEYS
+ s_sd_PUBCHEM\_IUPAC\_OPENEYE\_NAME
+ s_sd_PUBCHEM\_IUPAC\_CAS\_NAME
+ s_sd_PUBCHEM\_IUPAC\_NAME\_MARKUP
+ s_sd_PUBCHEM\_IUPAC\_NAME
+ s_sd_PUBCHEM\_IUPAC\_SYSTEMATIC\_NAME
+ s_sd_PUBCHEM\_IUPAC\_TRADITIONAL\_NAME
+ s_sd_PUBCHEM\_IUPAC\_INCHI
+ s_sd_PUBCHEM\_IUPAC\_INCHIKEY
+ r_sd_PUBCHEM\_XLOGP3\_AA
+ r_sd_PUBCHEM\_EXACT\_MASS
+ s_sd_PUBCHEM\_MOLECULAR\_FORMULA
+ r_sd_PUBCHEM\_MOLECULAR\_WEIGHT
+ s_sd_PUBCHEM\_SMILES
+ s_sd_PUBCHEM\_OPENEYE\_CAN\_SMILES
+ s_sd_PUBCHEM\_OPENEYE\_ISO\_SMILES
+ r_sd_PUBCHEM\_CACTVS\_TPSA
+ r_sd_PUBCHEM\_MONOISOTOPIC\_WEIGHT
+ i_sd_PUBCHEM\_TOTAL\_CHARGE
+ i_sd_PUBCHEM\_HEAVY\_ATOM\_COUNT
+ i_sd_PUBCHEM\_ATOM\_DEF\_STEREO\_COUNT
+ i_sd_PUBCHEM\_ATOM\_UDEF\_STEREO\_COUNT
+ i_sd_PUBCHEM\_BOND\_DEF\_STEREO\_COUNT
+ i_sd_PUBCHEM\_BOND\_UDEF\_STEREO\_COUNT
+ i_sd_PUBCHEM\_ISOTOPIC\_ATOM\_COUNT
+ i_sd_PUBCHEM\_COMPONENT\_COUNT
+ i_sd_PUBCHEM\_CACTVS\_TAUTO\_COUNT
+ s_sd_PUBCHEM\_COORDINATE\_TYPE
+ s_sd_PUBCHEM\_BONDANNOTATIONS
+ b_sd_chiral_flag
+ i_sd_version
+ s_m_Source_Path
+ s_m_Source_File
+ i_m_Source_File_Index
+ s_j_original_title
+ r_f3d_energy
+ i_f3d_flags
+ s_ff_OPLSVersion
+ r_ff_RMS_Derivative
+ b_ff_Minimization_Converged
+ s_mopac_SemiEmpirical_Method
+ r_mopac_MOPAC_Heat_of_Formation
+ s_j_jname
+ s_j_genealogy
+ i_j_TautomerStage1_index
+ r_j_multistage_ediff
+ s_st_EZ_1
+ i_j_TautomerStage2_index
+ r_NDDO_NDDO_Heat_of_Formation
+ s_NDDO_SemiEmpirical_Method
+ i_j_SemiEmpStage1_index
+ i_m_Spin_multiplicity
+ s_j_Task
+ s_j_Jaguar_input_file
+ s_j_Jaguar_restart_input_file
+ s_j_Jaguar_restart_mae_file
+ s_j_Jaguar_output_file
+ s_j_Jaguar_log_file
+ s_j_Jaguar_mae_file
+ s_j_QM_Method
+ s_j_QM_Basis
+ i_j_Number_of_canonical_orbitals
+ i_j_Geometry_convergence_category
+ r_j_Gas_Phase_Energy
+ r_j_Solution_Phase_Energy
+ r_j_Final_Energy
+ r_j_Solvation_Energy_(kcal/mol)
+ r_j_HOMO
+ r_j_LUMO
+ i_j_QMStage1_index
+ i_j_QMStage2_index
+ s_m_subgroupid
+ b_m_subgroup_collapsed
+ i_m_ct_format
+ :::
+ 227928_7 
+  2 
+  Structure2D_COMPOUND_CID_227928.1 
+  227928
+  1
+  246
+  5
+  3
+  1
+  AAADcYBjsAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAHgAcAAAACAjBgAQBAALiAACJAAVWUACAAAAAAgAQAICIAECAQAAAAAAQAAAIByIAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA== 
+  "N-(2,4-dioxo-1H-pyrimidin-5-yl)nitrous amide" 
+  "N-(2,4-dioxo-1H-pyrimidin-5-yl)nitrous amide" 
+  "<I>N</I>-(2,4-dioxo-1<I>H</I>-pyrimidin-5-yl)nitrous amide" 
+  "N-(2,4-dioxo-1H-pyrimidin-5-yl)nitrous amide" 
+  "N-[2,4-bis(oxidanylidene)-1H-pyrimidin-5-yl]nitrous amide" 
+  "N-(2,4-diketo-1H-pyrimidin-5-yl)nitrous amide" 
+  InChI=1S/C4H4N4O3/c9-3-2(7-8-11)1-5-4(10)6-3/h1H,(H,7,11)(H2,5,6,9,10) 
+  OIXPJPUFFXAGLN-UHFFFAOYSA-N 
+  -1.1
+  156.02834
+  C4H4N4O3 
+  156.1
+  C1=C(C(=O)NC(=O)N1)NN=O 
+  C1=C(C(=O)NC(=O)N1)NN=O 
+  C1=C(C(=O)NC(=O)N1)NN=O 
+  99.7
+  156.02834
+  0
+  11
+  0
+  0
+  0
+  0
+  0
+  1
+  -1
+  "1
+5
+255" 
+  "4  11  8
+4  9  8
+5  10  8
+5  11  8
+8  10  8
+8  9  8" 
+  0
+  0
+  /home/vm/Downloads 
+  Structure2D_COMPOUND_CID_227928.sdf 
+  1
+  227928 
+  0
+  0
+  OPLS4 
+  0.0219627645447108
+  1
+  PM7 
+  -66.63182
+  227928_12_isomer12 
+  1_18_18_12_7 
+  1
+  10.5602630171925
+  8_6_7_3_E 
+  18
+  -2.46885
+  PM3 
+  18
+  1
+  "Single Point" 
+  /mnt/Data_4/RESEARCH/UHRF1/JAGUAR/nsc20116_taut/nsc20116_taut_QMStage2_workdir/227928_12_isomer12.in 
+  /mnt/Data_4/RESEARCH/UHRF1/JAGUAR/nsc20116_taut/nsc20116_taut_QMStage2_workdir/227928_12_isomer12.01.in 
+  /mnt/Data_4/RESEARCH/UHRF1/JAGUAR/nsc20116_taut/nsc20116_taut_QMStage2_workdir/227928_12_isomer12.01.mae 
+  /mnt/Data_4/RESEARCH/UHRF1/JAGUAR/nsc20116_taut/nsc20116_taut_QMStage2_workdir/227928_12_isomer12.out 
+  /mnt/Data_4/RESEARCH/UHRF1/JAGUAR/nsc20116_taut/nsc20116_taut_QMStage2_workdir/227928_12_isomer12.log 
+  /mnt/Data_4/RESEARCH/UHRF1/JAGUAR/nsc20116_taut/nsc20116_taut_QMStage2_workdir/227928_12_isomer12.mae 
+  DFT(m06-2x)/SOLV 
+  cc-pvtz(-f) 
+  287
+  0
+  -599.429515239121
+  -599.466808565967
+  -599.466808565967
+  -23.4019157636686
+  -0.300794187475173
+  -0.0515672005228028
+  12
+  7
+  nsc20116_taut_QMStage2-out.mae 
+  1
+  2
+ m_depend[19] { 
+  # First column is dependency index #
+  i_m_depend_dependency
+  s_m_depend_property
+  :::
+  1 10 s_st_EZ_1 
+  2 20 i_m_Spin_multiplicity 
+  3 20 s_j_Task 
+  4 20 s_j_Jaguar_input_file 
+  5 20 s_j_Jaguar_restart_input_file 
+  6 20 s_j_Jaguar_restart_mae_file 
+  7 20 s_j_Jaguar_output_file 
+  8 20 s_j_Jaguar_log_file 
+  9 20 s_j_Jaguar_mae_file 
+  10 20 s_j_QM_Method 
+  11 20 s_j_QM_Basis 
+  12 20 i_j_Number_of_canonical_orbitals 
+  13 20 i_j_Geometry_convergence_category 
+  14 20 r_j_Gas_Phase_Energy 
+  15 20 r_j_Solution_Phase_Energy 
+  16 20 r_j_Final_Energy 
+  17 20 r_j_Solvation_Energy_(kcal/mol) 
+  18 20 r_j_HOMO 
+  19 20 r_j_LUMO 
+  :::
+ } 
+ m_atom[15] { 
+  # First column is atom index #
+  i_m_mmod_type
+  r_m_x_coord
+  r_m_y_coord
+  r_m_z_coord
+  i_m_residue_number
+  i_m_color
+  r_m_charge1
+  r_m_charge2
+  i_m_atomic_number
+  s_m_color_rgb
+  s_m_atom_name
+  r_j_ESP_Charges
+  s_j_Tautomer_site
+  :::
+  1 15 -1.883422 -1.460850 -0.075341 900 70 -0.64103 -0.64103 8 FF2F2F  O1  -0.641028160296767 acceptor 
+  2 16 -1.698907 3.096752 0.117166 900 70 -0.59508 -0.59508 8 FF2F2F  O2  -0.595083073421134 donor 
+  3 16 2.798409 -2.799791 -0.053894 900 70 -0.44102 -0.44102 8 FF2F2F  O3  -0.441017382418001 donor 
+  4 25 -1.736587 0.827917 0.000598 900 43 -0.50642 -0.50642 7 5757FF  N4  -0.50642228667669 donor 
+  5 25 0.305654 2.001864 -0.113691 900 43 -0.74414 -0.74414 7 5757FF  N5  -0.744142305033105 acceptor 
+  6 25 0.979787 -1.658756 -0.234071 900 43 -0.22018 -0.22018 7 5757FF  N6  -0.220180425212594 acceptor 
+  7 25 2.161607 -1.586553 0.162197 900 43 -0.02295 -0.02295 7 5757FF  N7  -0.0229468476654548 acceptor 
+  8 2 0.293127 -0.422656 -0.144057 900 2 0.00190 0.00190 6 A0A0A0  C8  0.00189577730259047 <>
+  9 2 -1.161340 -0.463297 -0.077992 900 2 0.57803 0.57803 6 A0A0A0  C9  0.578031465901559 <>
+  10 2 0.928283 0.799722 -0.189794 900 2 0.25711 0.25711 6 A0A0A0  C10  0.25711196314107 <>
+  11 2 -1.005633 1.971142 0.000169 900 2 0.79308 0.79308 6 A0A0A0  C11  0.793081574807394 <>
+  12 41 2.008051 0.829336 -0.307329 900 21 0.12549 0.12549 1 FFFFFF  H12  0.125491618823423 <>
+  13 43 -2.757223 0.876179 0.069779 900 21 0.43719 0.43719 1 FFFFFF  H13  0.437185257684768 <>
+  14 42 -1.080692 3.858666 0.114884 900 21 0.50900 0.50900 1 FFFFFF  H14  0.508999458721547 <>
+  15 42 3.697104 -2.655046 0.304389 900 21 0.46902 0.46902 1 FFFFFF  H15  0.469023364341394 <>
+  :::
+ } 
+ m_bond[15] { 
+  # First column is bond index #
+  i_m_from
+  i_m_to
+  i_m_order
+  :::
+  1 1 9 2
+  2 2 11 1
+  3 2 14 1
+  4 3 7 1
+  5 3 15 1
+  6 4 9 1
+  7 4 11 1
+  8 4 13 1
+  9 5 10 1
+  10 5 11 2
+  11 6 7 2
+  12 6 8 1
+  13 8 9 1
+  14 8 10 2
+  15 10 12 1
+  :::
+ } 
+} 
+
+f_m_ct { 
+ s_m_title
+ s_m_entry_id
+ s_m_entry_name
+ i_sd_PUBCHEM\_COMPOUND\_CID
+ i_sd_PUBCHEM\_COMPOUND\_CANONICALIZED
+ i_sd_PUBCHEM\_CACTVS\_COMPLEXITY
+ i_sd_PUBCHEM\_CACTVS\_HBOND\_ACCEPTOR
+ i_sd_PUBCHEM\_CACTVS\_HBOND\_DONOR
+ i_sd_PUBCHEM\_CACTVS\_ROTATABLE\_BOND
+ s_sd_PUBCHEM\_CACTVS\_SUBSKEYS
+ s_sd_PUBCHEM\_IUPAC\_OPENEYE\_NAME
+ s_sd_PUBCHEM\_IUPAC\_CAS\_NAME
+ s_sd_PUBCHEM\_IUPAC\_NAME\_MARKUP
+ s_sd_PUBCHEM\_IUPAC\_NAME
+ s_sd_PUBCHEM\_IUPAC\_SYSTEMATIC\_NAME
+ s_sd_PUBCHEM\_IUPAC\_TRADITIONAL\_NAME
+ s_sd_PUBCHEM\_IUPAC\_INCHI
+ s_sd_PUBCHEM\_IUPAC\_INCHIKEY
+ r_sd_PUBCHEM\_XLOGP3\_AA
+ r_sd_PUBCHEM\_EXACT\_MASS
+ s_sd_PUBCHEM\_MOLECULAR\_FORMULA
+ r_sd_PUBCHEM\_MOLECULAR\_WEIGHT
+ s_sd_PUBCHEM\_SMILES
+ s_sd_PUBCHEM\_OPENEYE\_CAN\_SMILES
+ s_sd_PUBCHEM\_OPENEYE\_ISO\_SMILES
+ r_sd_PUBCHEM\_CACTVS\_TPSA
+ r_sd_PUBCHEM\_MONOISOTOPIC\_WEIGHT
+ i_sd_PUBCHEM\_TOTAL\_CHARGE
+ i_sd_PUBCHEM\_HEAVY\_ATOM\_COUNT
+ i_sd_PUBCHEM\_ATOM\_DEF\_STEREO\_COUNT
+ i_sd_PUBCHEM\_ATOM\_UDEF\_STEREO\_COUNT
+ i_sd_PUBCHEM\_BOND\_DEF\_STEREO\_COUNT
+ i_sd_PUBCHEM\_BOND\_UDEF\_STEREO\_COUNT
+ i_sd_PUBCHEM\_ISOTOPIC\_ATOM\_COUNT
+ i_sd_PUBCHEM\_COMPONENT\_COUNT
+ i_sd_PUBCHEM\_CACTVS\_TAUTO\_COUNT
+ s_sd_PUBCHEM\_COORDINATE\_TYPE
+ s_sd_PUBCHEM\_BONDANNOTATIONS
+ b_sd_chiral_flag
+ i_sd_version
+ s_m_Source_Path
+ s_m_Source_File
+ i_m_Source_File_Index
+ s_j_original_title
+ s_ff_OPLSVersion
+ r_ff_RMS_Derivative
+ b_ff_Minimization_Converged
+ s_j_genealogy
+ i_j_TautomerStage_index
+ r_j_multistage_ediff
+ r_f3d_energy
+ i_f3d_flags
+ s_mopac_SemiEmpirical_Method
+ r_mopac_MOPAC_Heat_of_Formation
+ s_j_jname
+ i_j_TautomerStage1_index
+ s_st_Chirality_1
+ s_st_Chirality_2
+ i_j_TautomerStage2_index
+ r_NDDO_NDDO_Heat_of_Formation
+ s_NDDO_SemiEmpirical_Method
+ i_j_SemiEmpStage1_index
+ i_m_Spin_multiplicity
+ s_j_Task
+ s_j_Jaguar_input_file
+ s_j_Jaguar_restart_input_file
+ s_j_Jaguar_restart_mae_file
+ s_j_Jaguar_output_file
+ s_j_Jaguar_log_file
+ s_j_Jaguar_mae_file
+ s_j_QM_Method
+ s_j_QM_Basis
+ i_j_Number_of_canonical_orbitals
+ i_j_Geometry_convergence_category
+ r_j_Gas_Phase_Energy
+ r_j_Solution_Phase_Energy
+ r_j_Final_Energy
+ r_j_Solvation_Energy_(kcal/mol)
+ r_j_HOMO
+ r_j_LUMO
+ i_j_QMStage1_index
+ i_j_QMStage2_index
+ s_m_subgroupid
+ b_m_subgroup_collapsed
+ i_m_ct_format
+ :::
+ 227928_8 
+  2 
+  Structure2D_COMPOUND_CID_227928.1 
+  227928
+  1
+  246
+  5
+  3
+  1
+  AAADcYBjsAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAHgAcAAAACAjBgAQBAALiAACJAAVWUACAAAAAAgAQAICIAECAQAAAAAAQAAAIByIAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA== 
+  "N-(2,4-dioxo-1H-pyrimidin-5-yl)nitrous amide" 
+  "N-(2,4-dioxo-1H-pyrimidin-5-yl)nitrous amide" 
+  "<I>N</I>-(2,4-dioxo-1<I>H</I>-pyrimidin-5-yl)nitrous amide" 
+  "N-(2,4-dioxo-1H-pyrimidin-5-yl)nitrous amide" 
+  "N-[2,4-bis(oxidanylidene)-1H-pyrimidin-5-yl]nitrous amide" 
+  "N-(2,4-diketo-1H-pyrimidin-5-yl)nitrous amide" 
+  InChI=1S/C4H4N4O3/c9-3-2(7-8-11)1-5-4(10)6-3/h1H,(H,7,11)(H2,5,6,9,10) 
+  OIXPJPUFFXAGLN-UHFFFAOYSA-N 
+  -1.1
+  156.02834
+  C4H4N4O3 
+  156.1
+  C1=C(C(=O)NC(=O)N1)NN=O 
+  C1=C(C(=O)NC(=O)N1)NN=O 
+  C1=C(C(=O)NC(=O)N1)NN=O 
+  99.7
+  156.02834
+  0
+  11
+  0
+  0
+  0
+  0
+  0
+  1
+  -1
+  "1
+5
+255" 
+  "4  11  8
+4  9  8
+5  10  8
+5  11  8
+8  10  8
+8  9  8" 
+  0
+  0
+  /home/vm/Downloads 
+  Structure2D_COMPOUND_CID_227928.sdf 
+  1
+  227928 
+  OPLS4 
+  0.040338481251004
+  1
+  1_4_139_47_9_8 
+  1
+  11.187564116728
+  0
+  0
+  PM7 
+  -34.80635
+  227928_9_isomer9 
+  4
+  8_?_6_9_10_15 
+  10_S_3_5_8_12 
+  139
+  10.17343
+  PM3 
+  47
+  1
+  "Single Point" 
+  /mnt/Data_4/RESEARCH/UHRF1/JAGUAR/nsc20116_taut/nsc20116_taut_QMStage2_workdir/227928_9_isomer9.in 
+  /mnt/Data_4/RESEARCH/UHRF1/JAGUAR/nsc20116_taut/nsc20116_taut_QMStage2_workdir/227928_9_isomer9.01.in 
+  /mnt/Data_4/RESEARCH/UHRF1/JAGUAR/nsc20116_taut/nsc20116_taut_QMStage2_workdir/227928_9_isomer9.01.mae 
+  /mnt/Data_4/RESEARCH/UHRF1/JAGUAR/nsc20116_taut/nsc20116_taut_QMStage2_workdir/227928_9_isomer9.out 
+  /mnt/Data_4/RESEARCH/UHRF1/JAGUAR/nsc20116_taut/nsc20116_taut_QMStage2_workdir/227928_9_isomer9.log 
+  /mnt/Data_4/RESEARCH/UHRF1/JAGUAR/nsc20116_taut/nsc20116_taut_QMStage2_workdir/227928_9_isomer9.mae 
+  DFT(m06-2x)/SOLV 
+  cc-pvtz(-f) 
+  287
+  0
+  -599.43133424376
+  -599.465808898033
+  -599.465808898033
+  -21.633172031086
+  -0.362098352501025
+  -0.0356582459443525
+  9
+  8
+  nsc20116_taut_QMStage2-out.mae 
+  1
+  2
+ m_depend[20] { 
+  # First column is dependency index #
+  i_m_depend_dependency
+  s_m_depend_property
+  :::
+  1 10 s_st_Chirality_1 
+  2 10 s_st_Chirality_2 
+  3 20 i_m_Spin_multiplicity 
+  4 20 s_j_Task 
+  5 20 s_j_Jaguar_input_file 
+  6 20 s_j_Jaguar_restart_input_file 
+  7 20 s_j_Jaguar_restart_mae_file 
+  8 20 s_j_Jaguar_output_file 
+  9 20 s_j_Jaguar_log_file 
+  10 20 s_j_Jaguar_mae_file 
+  11 20 s_j_QM_Method 
+  12 20 s_j_QM_Basis 
+  13 20 i_j_Number_of_canonical_orbitals 
+  14 20 i_j_Geometry_convergence_category 
+  15 20 r_j_Gas_Phase_Energy 
+  16 20 r_j_Solution_Phase_Energy 
+  17 20 r_j_Final_Energy 
+  18 20 r_j_Solvation_Energy_(kcal/mol) 
+  19 20 r_j_HOMO 
+  20 20 r_j_LUMO 
+  :::
+ } 
+ m_atom[15] { 
+  # First column is atom index #
+  i_m_mmod_type
+  r_m_x_coord
+  r_m_y_coord
+  r_m_z_coord
+  i_m_residue_number
+  i_m_color
+  r_m_charge1
+  r_m_charge2
+  i_m_atomic_number
+  s_m_color_rgb
+  s_m_atom_name
+  r_j_ESP_Charges
+  s_j_Tautomer_site
+  b_st_NoSrcChirality
+  :::
+  1 15 0.256280 0.102508 0.715364 900 70 -0.50874 -0.50874 8 FF2F2F  O1  -0.508742240709707 acceptor  <>
+  2 15 3.676370 -2.674908 -0.581196 900 70 -0.59580 -0.59580 8 FF2F2F  O2  -0.595803515008317 acceptor  <>
+  3 16 3.940835 1.997260 -1.251915 900 70 -0.41854 -0.41854 8 FF2F2F  O3  -0.418540808385082 <> <>
+  4 25 1.998078 -1.264963 0.083705 900 43 -0.52326 -0.52326 7 5757FF  N4  -0.523255738875886 donor  <>
+  5 25 3.964237 -0.434646 -0.991740 900 43 -0.88235 -0.88235 7 5757FF  N5  -0.882347106955879 donor  <>
+  6 25 1.779675 2.355901 -0.779658 900 43 -0.40330 -0.40330 7 5757FF  N6  -0.403302794263595 acceptor  <>
+  7 25 2.812097 2.934984 -1.105936 900 43 0.02947 0.02947 7 5757FF  N7  0.0294681914475793 acceptor  <>
+  8 3 2.012147 0.908594 -0.791717 900 2 0.48397 0.48397 6 A0A0A0  C8  0.483973559546567 donor  1
+  9 2 1.295479 -0.067580 0.104486 900 2 0.33508 0.33508 6 A0A0A0  C9  0.335079393583225 <> <>
+  10 3 3.503744 0.846533 -0.523431 900 2 0.72742 0.72742 6 A0A0A0  C10  0.727417361982016 <> 1
+  11 2 3.258314 -1.527430 -0.515774 900 2 0.70052 0.70052 6 A0A0A0  C11  0.700516115205295 <> <>
+  12 41 3.749942 1.014542 0.538169 900 21 0.02152 0.02152 1 FFFFFF  H12  0.0215205596939287 <> <>
+  13 43 1.562846 -2.072629 0.533302 900 21 0.42437 0.42437 1 FFFFFF  H13  0.424368159180748 <> <>
+  14 43 4.970141 -0.592495 -1.067099 900 21 0.48141 0.48141 1 FFFFFF  H14  0.481414124204969 <> <>
+  15 41 1.814823 0.595554 -1.834881 900 21 0.12823 0.12823 1 FFFFFF  H15  0.128234739354139 <> <>
+  :::
+ } 
+ m_bond[16] { 
+  # First column is bond index #
+  i_m_from
+  i_m_to
+  i_m_order
+  :::
+  1 1 9 2
+  2 2 11 2
+  3 3 7 1
+  4 3 10 1
+  5 4 9 1
+  6 4 11 1
+  7 4 13 1
+  8 5 10 1
+  9 5 11 1
+  10 5 14 1
+  11 6 7 2
+  12 6 8 1
+  13 8 9 1
+  14 8 10 1
+  15 8 15 1
+  16 10 12 1
+  :::
+ } 
+} 
+
+f_m_ct { 
+ s_m_title
+ s_m_entry_id
+ s_m_entry_name
+ i_sd_PUBCHEM\_COMPOUND\_CID
+ i_sd_PUBCHEM\_COMPOUND\_CANONICALIZED
+ i_sd_PUBCHEM\_CACTVS\_COMPLEXITY
+ i_sd_PUBCHEM\_CACTVS\_HBOND\_ACCEPTOR
+ i_sd_PUBCHEM\_CACTVS\_HBOND\_DONOR
+ i_sd_PUBCHEM\_CACTVS\_ROTATABLE\_BOND
+ s_sd_PUBCHEM\_CACTVS\_SUBSKEYS
+ s_sd_PUBCHEM\_IUPAC\_OPENEYE\_NAME
+ s_sd_PUBCHEM\_IUPAC\_CAS\_NAME
+ s_sd_PUBCHEM\_IUPAC\_NAME\_MARKUP
+ s_sd_PUBCHEM\_IUPAC\_NAME
+ s_sd_PUBCHEM\_IUPAC\_SYSTEMATIC\_NAME
+ s_sd_PUBCHEM\_IUPAC\_TRADITIONAL\_NAME
+ s_sd_PUBCHEM\_IUPAC\_INCHI
+ s_sd_PUBCHEM\_IUPAC\_INCHIKEY
+ r_sd_PUBCHEM\_XLOGP3\_AA
+ r_sd_PUBCHEM\_EXACT\_MASS
+ s_sd_PUBCHEM\_MOLECULAR\_FORMULA
+ r_sd_PUBCHEM\_MOLECULAR\_WEIGHT
+ s_sd_PUBCHEM\_SMILES
+ s_sd_PUBCHEM\_OPENEYE\_CAN\_SMILES
+ s_sd_PUBCHEM\_OPENEYE\_ISO\_SMILES
+ r_sd_PUBCHEM\_CACTVS\_TPSA
+ r_sd_PUBCHEM\_MONOISOTOPIC\_WEIGHT
+ i_sd_PUBCHEM\_TOTAL\_CHARGE
+ i_sd_PUBCHEM\_HEAVY\_ATOM\_COUNT
+ i_sd_PUBCHEM\_ATOM\_DEF\_STEREO\_COUNT
+ i_sd_PUBCHEM\_ATOM\_UDEF\_STEREO\_COUNT
+ i_sd_PUBCHEM\_BOND\_DEF\_STEREO\_COUNT
+ i_sd_PUBCHEM\_BOND\_UDEF\_STEREO\_COUNT
+ i_sd_PUBCHEM\_ISOTOPIC\_ATOM\_COUNT
+ i_sd_PUBCHEM\_COMPONENT\_COUNT
+ i_sd_PUBCHEM\_CACTVS\_TAUTO\_COUNT
+ s_sd_PUBCHEM\_COORDINATE\_TYPE
+ s_sd_PUBCHEM\_BONDANNOTATIONS
+ b_sd_chiral_flag
+ i_sd_version
+ s_m_Source_Path
+ s_m_Source_File
+ i_m_Source_File_Index
+ s_j_original_title
+ s_ff_OPLSVersion
+ r_ff_RMS_Derivative
+ b_ff_Minimization_Converged
+ s_j_genealogy
+ i_j_TautomerStage_index
+ r_j_multistage_ediff
+ r_f3d_energy
+ i_f3d_flags
+ s_mopac_SemiEmpirical_Method
+ r_mopac_MOPAC_Heat_of_Formation
+ s_j_jname
+ i_j_TautomerStage1_index
+ s_st_Chirality_1
+ s_st_Chirality_2
+ i_j_TautomerStage2_index
+ r_NDDO_NDDO_Heat_of_Formation
+ s_NDDO_SemiEmpirical_Method
+ i_j_SemiEmpStage1_index
+ i_m_Spin_multiplicity
+ s_j_Task
+ s_j_Jaguar_input_file
+ s_j_Jaguar_restart_input_file
+ s_j_Jaguar_restart_mae_file
+ s_j_Jaguar_output_file
+ s_j_Jaguar_log_file
+ s_j_Jaguar_mae_file
+ s_j_QM_Method
+ s_j_QM_Basis
+ i_j_Number_of_canonical_orbitals
+ i_j_Geometry_convergence_category
+ r_j_Gas_Phase_Energy
+ r_j_Solution_Phase_Energy
+ r_j_Final_Energy
+ r_j_Solvation_Energy_(kcal/mol)
+ r_j_HOMO
+ r_j_LUMO
+ i_j_QMStage1_index
+ i_j_QMStage2_index
+ s_m_subgroupid
+ b_m_subgroup_collapsed
+ i_m_ct_format
+ :::
+ 227928_9 
+  2 
+  Structure2D_COMPOUND_CID_227928.1 
+  227928
+  1
+  246
+  5
+  3
+  1
+  AAADcYBjsAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAHgAcAAAACAjBgAQBAALiAACJAAVWUACAAAAAAgAQAICIAECAQAAAAAAQAAAIByIAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA== 
+  "N-(2,4-dioxo-1H-pyrimidin-5-yl)nitrous amide" 
+  "N-(2,4-dioxo-1H-pyrimidin-5-yl)nitrous amide" 
+  "<I>N</I>-(2,4-dioxo-1<I>H</I>-pyrimidin-5-yl)nitrous amide" 
+  "N-(2,4-dioxo-1H-pyrimidin-5-yl)nitrous amide" 
+  "N-[2,4-bis(oxidanylidene)-1H-pyrimidin-5-yl]nitrous amide" 
+  "N-(2,4-diketo-1H-pyrimidin-5-yl)nitrous amide" 
+  InChI=1S/C4H4N4O3/c9-3-2(7-8-11)1-5-4(10)6-3/h1H,(H,7,11)(H2,5,6,9,10) 
+  OIXPJPUFFXAGLN-UHFFFAOYSA-N 
+  -1.1
+  156.02834
+  C4H4N4O3 
+  156.1
+  C1=C(C(=O)NC(=O)N1)NN=O 
+  C1=C(C(=O)NC(=O)N1)NN=O 
+  C1=C(C(=O)NC(=O)N1)NN=O 
+  99.7
+  156.02834
+  0
+  11
+  0
+  0
+  0
+  0
+  0
+  1
+  -1
+  "1
+5
+255" 
+  "4  11  8
+4  9  8
+5  10  8
+5  11  8
+8  10  8
+8  9  8" 
+  0
+  0
+  /home/vm/Downloads 
+  Structure2D_COMPOUND_CID_227928.sdf 
+  1
+  227928 
+  OPLS4 
+  0.0402547352937826
+  1
+  1_5_174_46_10_9 
+  1
+  11.2234735220554
+  0
+  0
+  PM7 
+  -34.79097
+  227928_10_isomer10 
+  5
+  8_?_6_9_10_15 
+  10_R_3_5_8_12 
+  174
+  10.17317
+  PM3 
+  46
+  1
+  "Single Point" 
+  /mnt/Data_4/RESEARCH/UHRF1/JAGUAR/nsc20116_taut/nsc20116_taut_QMStage2_workdir/227928_10_isomer10.in 
+  /mnt/Data_4/RESEARCH/UHRF1/JAGUAR/nsc20116_taut/nsc20116_taut_QMStage2_workdir/227928_10_isomer10.01.in 
+  /mnt/Data_4/RESEARCH/UHRF1/JAGUAR/nsc20116_taut/nsc20116_taut_QMStage2_workdir/227928_10_isomer10.01.mae 
+  /mnt/Data_4/RESEARCH/UHRF1/JAGUAR/nsc20116_taut/nsc20116_taut_QMStage2_workdir/227928_10_isomer10.out 
+  /mnt/Data_4/RESEARCH/UHRF1/JAGUAR/nsc20116_taut/nsc20116_taut_QMStage2_workdir/227928_10_isomer10.log 
+  /mnt/Data_4/RESEARCH/UHRF1/JAGUAR/nsc20116_taut/nsc20116_taut_QMStage2_workdir/227928_10_isomer10.mae 
+  DFT(m06-2x)/SOLV 
+  cc-pvtz(-f) 
+  287
+  3
+  -599.43134722218
+  -599.465751672753
+  -599.465751672753
+  -21.5891185445571
+  -0.362112599914284
+  -0.0356412583935907
+  10
+  9
+  nsc20116_taut_QMStage2-out.mae 
+  1
+  2
+ m_depend[20] { 
+  # First column is dependency index #
+  i_m_depend_dependency
+  s_m_depend_property
+  :::
+  1 10 s_st_Chirality_1 
+  2 10 s_st_Chirality_2 
+  3 20 i_m_Spin_multiplicity 
+  4 20 s_j_Task 
+  5 20 s_j_Jaguar_input_file 
+  6 20 s_j_Jaguar_restart_input_file 
+  7 20 s_j_Jaguar_restart_mae_file 
+  8 20 s_j_Jaguar_output_file 
+  9 20 s_j_Jaguar_log_file 
+  10 20 s_j_Jaguar_mae_file 
+  11 20 s_j_QM_Method 
+  12 20 s_j_QM_Basis 
+  13 20 i_j_Number_of_canonical_orbitals 
+  14 20 i_j_Geometry_convergence_category 
+  15 20 r_j_Gas_Phase_Energy 
+  16 20 r_j_Solution_Phase_Energy 
+  17 20 r_j_Final_Energy 
+  18 20 r_j_Solvation_Energy_(kcal/mol) 
+  19 20 r_j_HOMO 
+  20 20 r_j_LUMO 
+  :::
+ } 
+ m_atom[15] { 
+  # First column is atom index #
+  i_m_mmod_type
+  r_m_x_coord
+  r_m_y_coord
+  r_m_z_coord
+  i_m_residue_number
+  i_m_color
+  r_m_charge1
+  r_m_charge2
+  i_m_atomic_number
+  s_m_color_rgb
+  s_m_atom_name
+  r_j_ESP_Charges
+  s_j_Tautomer_site
+  b_st_NoSrcChirality
+  :::
+  1 15 0.255890 0.102027 -0.715081 900 70 -0.50912 -0.50912 8 FF2F2F  O1  -0.50912161680138 acceptor  <>
+  2 15 3.676917 -2.674742 0.580034 900 70 -0.59575 -0.59575 8 FF2F2F  O2  -0.595747230740631 acceptor  <>
+  3 16 3.940754 1.997447 1.251997 900 70 -0.41800 -0.41800 8 FF2F2F  O3  -0.418003757245709 <> <>
+  4 25 1.998180 -1.264823 -0.083771 900 43 -0.52364 -0.52364 7 5757FF  N4  -0.523642292538202 donor  <>
+  5 25 3.964195 -0.434593 0.991948 900 43 -0.88276 -0.88276 7 5757FF  N5  -0.882764619641791 donor  <>
+  6 25 1.779745 2.356042 0.779501 900 43 -0.40369 -0.40369 7 5757FF  N6  -0.403692834014826 acceptor  <>
+  7 25 2.812258 2.934973 1.106112 900 43 0.02939 0.02939 7 5757FF  N7  0.0293903282373311 acceptor  <>
+  8 3 2.012235 0.908782 0.791251 900 2 0.48407 0.48407 6 A0A0A0  C8  0.484073577271261 donor  1
+  9 2 1.295510 -0.067552 -0.104733 900 2 0.33593 0.33593 6 A0A0A0  C9  0.335931963067942 <> <>
+  10 3 3.503894 0.846660 0.523416 900 2 0.72864 0.72864 6 A0A0A0  C10  0.72864129688864 <> 1
+  11 2 3.258594 -1.527346 0.515284 900 2 0.70079 0.70079 6 A0A0A0  C11  0.700788470191678 <> <>
+  12 41 3.750348 1.014516 -0.538152 900 21 0.02106 0.02106 1 FFFFFF  H12  0.0210582403205602 <> <>
+  13 43 1.561952 -2.072777 -0.531761 900 21 0.42423 0.42423 1 FFFFFF  H13  0.424230646528011 <> <>
+  14 43 4.970071 -0.592398 1.068016 900 21 0.48145 0.48145 1 FFFFFF  H14  0.481454671362534 <> <>
+  15 41 1.814528 0.595383 1.834243 900 21 0.12740 0.12740 1 FFFFFF  H15  0.127403157114583 <> <>
+  :::
+ } 
+ m_bond[16] { 
+  # First column is bond index #
+  i_m_from
+  i_m_to
+  i_m_order
+  :::
+  1 1 9 2
+  2 2 11 2
+  3 3 7 1
+  4 3 10 1
+  5 4 9 1
+  6 4 11 1
+  7 4 13 1
+  8 5 10 1
+  9 5 11 1
+  10 5 14 1
+  11 6 7 2
+  12 6 8 1
+  13 8 9 1
+  14 8 10 1
+  15 8 15 1
+  16 10 12 1
+  :::
+ } 
+} 
+
+f_m_ct { 
+ s_m_title
+ s_m_entry_id
+ s_m_entry_name
+ i_sd_PUBCHEM\_COMPOUND\_CID
+ i_sd_PUBCHEM\_COMPOUND\_CANONICALIZED
+ i_sd_PUBCHEM\_CACTVS\_COMPLEXITY
+ i_sd_PUBCHEM\_CACTVS\_HBOND\_ACCEPTOR
+ i_sd_PUBCHEM\_CACTVS\_HBOND\_DONOR
+ i_sd_PUBCHEM\_CACTVS\_ROTATABLE\_BOND
+ s_sd_PUBCHEM\_CACTVS\_SUBSKEYS
+ s_sd_PUBCHEM\_IUPAC\_OPENEYE\_NAME
+ s_sd_PUBCHEM\_IUPAC\_CAS\_NAME
+ s_sd_PUBCHEM\_IUPAC\_NAME\_MARKUP
+ s_sd_PUBCHEM\_IUPAC\_NAME
+ s_sd_PUBCHEM\_IUPAC\_SYSTEMATIC\_NAME
+ s_sd_PUBCHEM\_IUPAC\_TRADITIONAL\_NAME
+ s_sd_PUBCHEM\_IUPAC\_INCHI
+ s_sd_PUBCHEM\_IUPAC\_INCHIKEY
+ r_sd_PUBCHEM\_XLOGP3\_AA
+ r_sd_PUBCHEM\_EXACT\_MASS
+ s_sd_PUBCHEM\_MOLECULAR\_FORMULA
+ r_sd_PUBCHEM\_MOLECULAR\_WEIGHT
+ s_sd_PUBCHEM\_SMILES
+ s_sd_PUBCHEM\_OPENEYE\_CAN\_SMILES
+ s_sd_PUBCHEM\_OPENEYE\_ISO\_SMILES
+ r_sd_PUBCHEM\_CACTVS\_TPSA
+ r_sd_PUBCHEM\_MONOISOTOPIC\_WEIGHT
+ i_sd_PUBCHEM\_TOTAL\_CHARGE
+ i_sd_PUBCHEM\_HEAVY\_ATOM\_COUNT
+ i_sd_PUBCHEM\_ATOM\_DEF\_STEREO\_COUNT
+ i_sd_PUBCHEM\_ATOM\_UDEF\_STEREO\_COUNT
+ i_sd_PUBCHEM\_BOND\_DEF\_STEREO\_COUNT
+ i_sd_PUBCHEM\_BOND\_UDEF\_STEREO\_COUNT
+ i_sd_PUBCHEM\_ISOTOPIC\_ATOM\_COUNT
+ i_sd_PUBCHEM\_COMPONENT\_COUNT
+ i_sd_PUBCHEM\_CACTVS\_TAUTO\_COUNT
+ s_sd_PUBCHEM\_COORDINATE\_TYPE
+ s_sd_PUBCHEM\_BONDANNOTATIONS
+ b_sd_chiral_flag
+ i_sd_version
+ s_m_Source_Path
+ s_m_Source_File
+ i_m_Source_File_Index
+ s_j_original_title
+ r_f3d_energy
+ i_f3d_flags
+ s_ff_OPLSVersion
+ r_ff_RMS_Derivative
+ b_ff_Minimization_Converged
+ s_mopac_SemiEmpirical_Method
+ r_mopac_MOPAC_Heat_of_Formation
+ s_j_jname
+ s_j_genealogy
+ i_j_TautomerStage1_index
+ r_j_multistage_ediff
+ s_st_EZ_1
+ i_j_TautomerStage2_index
+ r_NDDO_NDDO_Heat_of_Formation
+ s_NDDO_SemiEmpirical_Method
+ i_j_SemiEmpStage1_index
+ i_m_Spin_multiplicity
+ s_j_Task
+ s_j_Jaguar_input_file
+ s_j_Jaguar_restart_input_file
+ s_j_Jaguar_restart_mae_file
+ s_j_Jaguar_output_file
+ s_j_Jaguar_log_file
+ s_j_Jaguar_mae_file
+ s_j_QM_Method
+ s_j_QM_Basis
+ i_j_Number_of_canonical_orbitals
+ i_j_Geometry_convergence_category
+ r_j_Gas_Phase_Energy
+ r_j_Solution_Phase_Energy
+ r_j_Final_Energy
+ r_j_Solvation_Energy_(kcal/mol)
+ r_j_HOMO
+ r_j_LUMO
+ i_j_QMStage1_index
+ i_j_QMStage2_index
+ s_m_subgroupid
+ b_m_subgroup_collapsed
+ i_m_ct_format
+ :::
+ 227928_10 
+  2 
+  Structure2D_COMPOUND_CID_227928.1 
+  227928
+  1
+  246
+  5
+  3
+  1
+  AAADcYBjsAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAHgAcAAAACAjBgAQBAALiAACJAAVWUACAAAAAAgAQAICIAECAQAAAAAAQAAAIByIAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA== 
+  "N-(2,4-dioxo-1H-pyrimidin-5-yl)nitrous amide" 
+  "N-(2,4-dioxo-1H-pyrimidin-5-yl)nitrous amide" 
+  "<I>N</I>-(2,4-dioxo-1<I>H</I>-pyrimidin-5-yl)nitrous amide" 
+  "N-(2,4-dioxo-1H-pyrimidin-5-yl)nitrous amide" 
+  "N-[2,4-bis(oxidanylidene)-1H-pyrimidin-5-yl]nitrous amide" 
+  "N-(2,4-diketo-1H-pyrimidin-5-yl)nitrous amide" 
+  InChI=1S/C4H4N4O3/c9-3-2(7-8-11)1-5-4(10)6-3/h1H,(H,7,11)(H2,5,6,9,10) 
+  OIXPJPUFFXAGLN-UHFFFAOYSA-N 
+  -1.1
+  156.02834
+  C4H4N4O3 
+  156.1
+  C1=C(C(=O)NC(=O)N1)NN=O 
+  C1=C(C(=O)NC(=O)N1)NN=O 
+  C1=C(C(=O)NC(=O)N1)NN=O 
+  99.7
+  156.02834
+  0
+  11
+  0
+  0
+  0
+  0
+  0
+  1
+  -1
+  "1
+5
+255" 
+  "4  11  8
+4  9  8
+5  10  8
+5  11  8
+8  10  8
+8  9  8" 
+  0
+  0
+  /home/vm/Downloads 
+  Structure2D_COMPOUND_CID_227928.sdf 
+  1
+  227928 
+  0
+  0
+  OPLS4 
+  0.0407373275676431
+  1
+  PM7 
+  -66.63182
+  227928_4_isomer4 
+  1_30_26_4_10 
+  1
+  11.3363073221408
+  8_6_7_3_E 
+  30
+  2.41779
+  PM3 
+  26
+  1
+  "Single Point" 
+  /mnt/Data_4/RESEARCH/UHRF1/JAGUAR/nsc20116_taut/nsc20116_taut_QMStage2_workdir/227928_4_isomer4.in 
+  /mnt/Data_4/RESEARCH/UHRF1/JAGUAR/nsc20116_taut/nsc20116_taut_QMStage2_workdir/227928_4_isomer4.01.in 
+  /mnt/Data_4/RESEARCH/UHRF1/JAGUAR/nsc20116_taut/nsc20116_taut_QMStage2_workdir/227928_4_isomer4.01.mae 
+  /mnt/Data_4/RESEARCH/UHRF1/JAGUAR/nsc20116_taut/nsc20116_taut_QMStage2_workdir/227928_4_isomer4.out 
+  /mnt/Data_4/RESEARCH/UHRF1/JAGUAR/nsc20116_taut/nsc20116_taut_QMStage2_workdir/227928_4_isomer4.log 
+  /mnt/Data_4/RESEARCH/UHRF1/JAGUAR/nsc20116_taut/nsc20116_taut_QMStage2_workdir/227928_4_isomer4.mae 
+  DFT(m06-2x)/SOLV 
+  cc-pvtz(-f) 
+  287
+  0
+  -599.402407663535
+  -599.465571860647
+  -599.465571860647
+  -39.63613185271
+  -0.289035601752347
+  -0.078191843581785
+  4
+  10
+  nsc20116_taut_QMStage2-out.mae 
+  1
+  2
+ m_depend[19] { 
+  # First column is dependency index #
+  i_m_depend_dependency
+  s_m_depend_property
+  :::
+  1 10 s_st_EZ_1 
+  2 20 i_m_Spin_multiplicity 
+  3 20 s_j_Task 
+  4 20 s_j_Jaguar_input_file 
+  5 20 s_j_Jaguar_restart_input_file 
+  6 20 s_j_Jaguar_restart_mae_file 
+  7 20 s_j_Jaguar_output_file 
+  8 20 s_j_Jaguar_log_file 
+  9 20 s_j_Jaguar_mae_file 
+  10 20 s_j_QM_Method 
+  11 20 s_j_QM_Basis 
+  12 20 i_j_Number_of_canonical_orbitals 
+  13 20 i_j_Geometry_convergence_category 
+  14 20 r_j_Gas_Phase_Energy 
+  15 20 r_j_Solution_Phase_Energy 
+  16 20 r_j_Final_Energy 
+  17 20 r_j_Solvation_Energy_(kcal/mol) 
+  18 20 r_j_HOMO 
+  19 20 r_j_LUMO 
+  :::
+ } 
+ m_atom[15] { 
+  # First column is atom index #
+  i_m_mmod_type
+  r_m_x_coord
+  r_m_y_coord
+  r_m_z_coord
+  i_m_residue_number
+  i_m_color
+  r_m_charge1
+  r_m_charge2
+  i_m_atomic_number
+  i_m_formal_charge
+  s_m_color_rgb
+  s_m_atom_name
+  r_j_ESP_Charges
+  s_j_Tautomer_site
+  :::
+  1 18 -1.464564 1.819524 -0.015548 900 70 -0.71411 -0.71411 8 -1 FF2F2F  O1  -0.714112433134668 acceptor 
+  2 15 3.116967 1.758728 -0.009277 900 70 -0.73282 -0.73282 8 0 FF2F2F  O2  -0.732815059679667 acceptor 
+  3 16 -2.877494 -2.677566 -0.013710 900 70 -0.41750 -0.41750 8 0 FF2F2F  O3  -0.417498419330559 donor 
+  4 25 0.835280 1.755877 -0.018516 900 43 -0.70075 -0.70075 7 0 5757FF  N4  -0.700745917505024 donor 
+  5 25 2.078524 -0.289701 -0.014201 900 43 -0.97831 -0.97831 7 0 5757FF  N5  -0.97830857154235 acceptor 
+  6 31 -1.542960 -0.985032 -0.017799 900 43 0.54677 0.54677 7 1 5757FF  N6  0.546766036697696 donor+acceptor 
+  7 25 -1.597988 -2.250957 -0.011049 900 43 -0.12982 -0.12982 7 0 5757FF  N7  -0.129822595183819 acceptor 
+  8 2 -0.340035 -0.288244 -0.015101 900 2 -0.82178 -0.82178 6 0 A0A0A0  C8  -0.821779242216918 <>
+  9 2 -0.415603 1.156642 -0.016515 900 2 0.87304 0.87304 6 0 A0A0A0  C9  0.873036525257273 <>
+  10 2 0.917090 -0.919109 -0.015838 900 2 0.78307 0.78307 6 0 A0A0A0  C10  0.78306915231601 <>
+  11 2 2.075239 1.098628 -0.013303 900 2 1.06081 1.06081 6 0 A0A0A0  C11  1.06081079871561 <>
+  12 41 0.954464 -2.007660 -0.017261 900 21 0.00445 0.00445 1 0 FFFFFF  H12  0.00444582908915063 <>
+  13 43 0.862067 2.775949 -0.014483 900 21 0.39655 0.39655 1 0 FFFFFF  H13  0.396546360173423 <>
+  14 44 -2.414275 -0.422065 -0.022820 900 21 0.29522 0.29522 1 0 FFFFFF  H14  0.295220503056663 <>
+  15 42 -2.812045 -3.658647 -0.008474 900 21 0.53519 0.53519 1 0 FFFFFF  H15  0.535187033287176 <>
+  :::
+ } 
+ m_bond[15] { 
+  # First column is bond index #
+  i_m_from
+  i_m_to
+  i_m_order
+  :::
+  1 1 9 1
+  2 2 11 2
+  3 3 7 1
+  4 3 15 1
+  5 4 9 1
+  6 4 11 1
+  7 4 13 1
+  8 5 10 2
+  9 5 11 1
+  10 6 7 2
+  11 6 8 1
+  12 6 14 1
+  13 8 9 2
+  14 8 10 1
+  15 10 12 1
+  :::
+ } 
+} 
+
+f_m_ct { 
+ s_m_title
+ s_m_entry_id
+ s_m_entry_name
+ i_sd_PUBCHEM\_COMPOUND\_CID
+ i_sd_PUBCHEM\_COMPOUND\_CANONICALIZED
+ i_sd_PUBCHEM\_CACTVS\_COMPLEXITY
+ i_sd_PUBCHEM\_CACTVS\_HBOND\_ACCEPTOR
+ i_sd_PUBCHEM\_CACTVS\_HBOND\_DONOR
+ i_sd_PUBCHEM\_CACTVS\_ROTATABLE\_BOND
+ s_sd_PUBCHEM\_CACTVS\_SUBSKEYS
+ s_sd_PUBCHEM\_IUPAC\_OPENEYE\_NAME
+ s_sd_PUBCHEM\_IUPAC\_CAS\_NAME
+ s_sd_PUBCHEM\_IUPAC\_NAME\_MARKUP
+ s_sd_PUBCHEM\_IUPAC\_NAME
+ s_sd_PUBCHEM\_IUPAC\_SYSTEMATIC\_NAME
+ s_sd_PUBCHEM\_IUPAC\_TRADITIONAL\_NAME
+ s_sd_PUBCHEM\_IUPAC\_INCHI
+ s_sd_PUBCHEM\_IUPAC\_INCHIKEY
+ r_sd_PUBCHEM\_XLOGP3\_AA
+ r_sd_PUBCHEM\_EXACT\_MASS
+ s_sd_PUBCHEM\_MOLECULAR\_FORMULA
+ r_sd_PUBCHEM\_MOLECULAR\_WEIGHT
+ s_sd_PUBCHEM\_SMILES
+ s_sd_PUBCHEM\_OPENEYE\_CAN\_SMILES
+ s_sd_PUBCHEM\_OPENEYE\_ISO\_SMILES
+ r_sd_PUBCHEM\_CACTVS\_TPSA
+ r_sd_PUBCHEM\_MONOISOTOPIC\_WEIGHT
+ i_sd_PUBCHEM\_TOTAL\_CHARGE
+ i_sd_PUBCHEM\_HEAVY\_ATOM\_COUNT
+ i_sd_PUBCHEM\_ATOM\_DEF\_STEREO\_COUNT
+ i_sd_PUBCHEM\_ATOM\_UDEF\_STEREO\_COUNT
+ i_sd_PUBCHEM\_BOND\_DEF\_STEREO\_COUNT
+ i_sd_PUBCHEM\_BOND\_UDEF\_STEREO\_COUNT
+ i_sd_PUBCHEM\_ISOTOPIC\_ATOM\_COUNT
+ i_sd_PUBCHEM\_COMPONENT\_COUNT
+ i_sd_PUBCHEM\_CACTVS\_TAUTO\_COUNT
+ s_sd_PUBCHEM\_COORDINATE\_TYPE
+ s_sd_PUBCHEM\_BONDANNOTATIONS
+ b_sd_chiral_flag
+ i_sd_version
+ s_m_Source_Path
+ s_m_Source_File
+ i_m_Source_File_Index
+ s_j_original_title
+ r_f3d_energy
+ i_f3d_flags
+ s_ff_OPLSVersion
+ r_ff_RMS_Derivative
+ b_ff_Minimization_Converged
+ s_mopac_SemiEmpirical_Method
+ r_mopac_MOPAC_Heat_of_Formation
+ s_j_jname
+ s_j_genealogy
+ i_j_TautomerStage1_index
+ r_j_multistage_ediff
+ i_j_TautomerStage2_index
+ r_NDDO_NDDO_Heat_of_Formation
+ s_NDDO_SemiEmpirical_Method
+ i_j_SemiEmpStage1_index
+ i_m_Spin_multiplicity
+ s_j_Task
+ s_j_Jaguar_input_file
+ s_j_Jaguar_restart_input_file
+ s_j_Jaguar_restart_mae_file
+ s_j_Jaguar_output_file
+ s_j_Jaguar_log_file
+ s_j_Jaguar_mae_file
+ s_j_QM_Method
+ s_j_QM_Basis
+ i_j_Number_of_canonical_orbitals
+ i_j_Geometry_convergence_category
+ r_j_Gas_Phase_Energy
+ r_j_Solution_Phase_Energy
+ r_j_Final_Energy
+ r_j_Solvation_Energy_(kcal/mol)
+ r_j_HOMO
+ r_j_LUMO
+ i_j_QMStage1_index
+ i_j_QMStage2_index
+ s_m_subgroupid
+ b_m_subgroup_collapsed
+ i_m_ct_format
+ :::
+ 227928_11 
+  2 
+  Structure2D_COMPOUND_CID_227928.1 
+  227928
+  1
+  246
+  5
+  3
+  1
+  AAADcYBjsAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAHgAcAAAACAjBgAQBAALiAACJAAVWUACAAAAAAgAQAICIAECAQAAAAAAQAAAIByIAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA== 
+  "N-(2,4-dioxo-1H-pyrimidin-5-yl)nitrous amide" 
+  "N-(2,4-dioxo-1H-pyrimidin-5-yl)nitrous amide" 
+  "<I>N</I>-(2,4-dioxo-1<I>H</I>-pyrimidin-5-yl)nitrous amide" 
+  "N-(2,4-dioxo-1H-pyrimidin-5-yl)nitrous amide" 
+  "N-[2,4-bis(oxidanylidene)-1H-pyrimidin-5-yl]nitrous amide" 
+  "N-(2,4-diketo-1H-pyrimidin-5-yl)nitrous amide" 
+  InChI=1S/C4H4N4O3/c9-3-2(7-8-11)1-5-4(10)6-3/h1H,(H,7,11)(H2,5,6,9,10) 
+  OIXPJPUFFXAGLN-UHFFFAOYSA-N 
+  -1.1
+  156.02834
+  C4H4N4O3 
+  156.1
+  C1=C(C(=O)NC(=O)N1)NN=O 
+  C1=C(C(=O)NC(=O)N1)NN=O 
+  C1=C(C(=O)NC(=O)N1)NN=O 
+  99.7
+  156.02834
+  0
+  11
+  0
+  0
+  0
+  0
+  0
+  1
+  -1
+  "1
+5
+255" 
+  "4  11  8
+4  9  8
+5  10  8
+5  11  8
+8  10  8
+8  9  8" 
+  0
+  0
+  /home/vm/Downloads 
+  Structure2D_COMPOUND_CID_227928.sdf 
+  1
+  227928 
+  0
+  0
+  OPLS4 
+  0.0290810470257306
+  1
+  PM7 
+  -66.63182
+  227928_5_isomer5 
+  1_23_15_5_11 
+  1
+  11.486782747379
+  23
+  -5.84671
+  PM3 
+  15
+  1
+  "Single Point" 
+  /mnt/Data_4/RESEARCH/UHRF1/JAGUAR/nsc20116_taut/nsc20116_taut_QMStage2_workdir/227928_5_isomer5.in 
+  /mnt/Data_4/RESEARCH/UHRF1/JAGUAR/nsc20116_taut/nsc20116_taut_QMStage2_workdir/227928_5_isomer5.01.in 
+  /mnt/Data_4/RESEARCH/UHRF1/JAGUAR/nsc20116_taut/nsc20116_taut_QMStage2_workdir/227928_5_isomer5.01.mae 
+  /mnt/Data_4/RESEARCH/UHRF1/JAGUAR/nsc20116_taut/nsc20116_taut_QMStage2_workdir/227928_5_isomer5.out 
+  /mnt/Data_4/RESEARCH/UHRF1/JAGUAR/nsc20116_taut/nsc20116_taut_QMStage2_workdir/227928_5_isomer5.log 
+  /mnt/Data_4/RESEARCH/UHRF1/JAGUAR/nsc20116_taut/nsc20116_taut_QMStage2_workdir/227928_5_isomer5.mae 
+  DFT(m06-2x)/SOLV 
+  cc-pvtz(-f) 
+  287
+  0
+  -599.434785921102
+  -599.465332062793
+  -599.465332062793
+  -19.1679931830228
+  -0.286266234328507
+  -0.0431677023450416
+  5
+  11
+  nsc20116_taut_QMStage2-out.mae 
+  1
+  2
+ m_depend[18] { 
+  # First column is dependency index #
+  i_m_depend_dependency
+  s_m_depend_property
+  :::
+  1 20 i_m_Spin_multiplicity 
+  2 20 s_j_Task 
+  3 20 s_j_Jaguar_input_file 
+  4 20 s_j_Jaguar_restart_input_file 
+  5 20 s_j_Jaguar_restart_mae_file 
+  6 20 s_j_Jaguar_output_file 
+  7 20 s_j_Jaguar_log_file 
+  8 20 s_j_Jaguar_mae_file 
+  9 20 s_j_QM_Method 
+  10 20 s_j_QM_Basis 
+  11 20 i_j_Number_of_canonical_orbitals 
+  12 20 i_j_Geometry_convergence_category 
+  13 20 r_j_Gas_Phase_Energy 
+  14 20 r_j_Solution_Phase_Energy 
+  15 20 r_j_Final_Energy 
+  16 20 r_j_Solvation_Energy_(kcal/mol) 
+  17 20 r_j_HOMO 
+  18 20 r_j_LUMO 
+  :::
+ } 
+ m_atom[15] { 
+  # First column is atom index #
+  i_m_mmod_type
+  r_m_x_coord
+  r_m_y_coord
+  r_m_z_coord
+  i_m_residue_number
+  i_m_color
+  r_m_charge1
+  r_m_charge2
+  i_m_atomic_number
+  s_m_color_rgb
+  s_m_atom_name
+  r_j_ESP_Charges
+  s_j_Tautomer_site
+  :::
+  1 15 1.793365 -1.506000 -0.017355 900 70 -0.65277 -0.65277 8 FF2F2F  O1  -0.652769851416764 acceptor 
+  2 16 1.791226 3.067981 -0.036280 900 70 -0.61070 -0.61070 8 FF2F2F  O2  -0.610699342037062 donor 
+  3 15 -2.793570 -2.797270 -0.116589 900 70 -0.32990 -0.32990 8 FF2F2F  O3  -0.329895878734393 acceptor 
+  4 25 1.746870 0.796468 -0.020751 900 43 -0.55844 -0.55844 7 5757FF  N4  -0.558437242765482 donor 
+  5 25 -0.262127 2.028157 0.029911 900 43 -0.83625 -0.83625 7 5757FF  N5  -0.836254057101799 acceptor 
+  6 25 -1.004287 -1.610621 0.042808 900 43 0.34132 0.34132 7 5757FF  N6  0.341318360413448 donor+acceptor 
+  7 25 -2.314695 -1.661016 -0.164791 900 43 -0.09279 -0.09279 7 5757FF  N7  -0.0927945266444745 acceptor 
+  8 2 -0.318274 -0.385537 0.029622 900 2 -0.64238 -0.64238 6 A0A0A0  C8  -0.642381200095698 <>
+  9 2 1.131022 -0.463539 -0.006344 900 2 0.77530 0.77530 6 A0A0A0  C9  0.775297353666088 <>
+  10 2 -0.934697 0.840042 0.061075 900 2 0.56961 0.56961 6 A0A0A0  C10  0.569607778312342 <>
+  11 2 1.046087 1.965487 -0.008287 900 2 0.85906 0.85906 6 A0A0A0  C11  0.859061438814551 <>
+  12 41 -2.017060 0.906411 0.103125 900 21 0.03524 0.03524 1 FFFFFF  H12  0.0352401671714969 <>
+  13 43 2.769459 0.811695 -0.045518 900 21 0.42115 0.42115 1 FFFFFF  H13  0.421150488716643 <>
+  14 43 -0.490510 -2.487798 0.176713 900 21 0.21653 0.21653 1 FFFFFF  H14  0.216533030975492 <>
+  15 42 1.206839 3.854901 -0.032036 900 21 0.50502 0.50502 1 FFFFFF  H15  0.505023480725611 <>
+  :::
+ } 
+ m_bond[15] { 
+  # First column is bond index #
+  i_m_from
+  i_m_to
+  i_m_order
+  :::
+  1 1 9 2
+  2 2 11 1
+  3 2 15 1
+  4 3 7 2
+  5 4 9 1
+  6 4 11 1
+  7 4 13 1
+  8 5 10 1
+  9 5 11 2
+  10 6 7 1
+  11 6 8 1
+  12 6 14 1
+  13 8 9 1
+  14 8 10 2
+  15 10 12 1
+  :::
+ } 
+} 
+
+f_m_ct { 
+ s_m_title
+ s_m_entry_id
+ s_m_entry_name
+ i_sd_PUBCHEM\_COMPOUND\_CID
+ i_sd_PUBCHEM\_COMPOUND\_CANONICALIZED
+ i_sd_PUBCHEM\_CACTVS\_COMPLEXITY
+ i_sd_PUBCHEM\_CACTVS\_HBOND\_ACCEPTOR
+ i_sd_PUBCHEM\_CACTVS\_HBOND\_DONOR
+ i_sd_PUBCHEM\_CACTVS\_ROTATABLE\_BOND
+ s_sd_PUBCHEM\_CACTVS\_SUBSKEYS
+ s_sd_PUBCHEM\_IUPAC\_OPENEYE\_NAME
+ s_sd_PUBCHEM\_IUPAC\_CAS\_NAME
+ s_sd_PUBCHEM\_IUPAC\_NAME\_MARKUP
+ s_sd_PUBCHEM\_IUPAC\_NAME
+ s_sd_PUBCHEM\_IUPAC\_SYSTEMATIC\_NAME
+ s_sd_PUBCHEM\_IUPAC\_TRADITIONAL\_NAME
+ s_sd_PUBCHEM\_IUPAC\_INCHI
+ s_sd_PUBCHEM\_IUPAC\_INCHIKEY
+ r_sd_PUBCHEM\_XLOGP3\_AA
+ r_sd_PUBCHEM\_EXACT\_MASS
+ s_sd_PUBCHEM\_MOLECULAR\_FORMULA
+ r_sd_PUBCHEM\_MOLECULAR\_WEIGHT
+ s_sd_PUBCHEM\_SMILES
+ s_sd_PUBCHEM\_OPENEYE\_CAN\_SMILES
+ s_sd_PUBCHEM\_OPENEYE\_ISO\_SMILES
+ r_sd_PUBCHEM\_CACTVS\_TPSA
+ r_sd_PUBCHEM\_MONOISOTOPIC\_WEIGHT
+ i_sd_PUBCHEM\_TOTAL\_CHARGE
+ i_sd_PUBCHEM\_HEAVY\_ATOM\_COUNT
+ i_sd_PUBCHEM\_ATOM\_DEF\_STEREO\_COUNT
+ i_sd_PUBCHEM\_ATOM\_UDEF\_STEREO\_COUNT
+ i_sd_PUBCHEM\_BOND\_DEF\_STEREO\_COUNT
+ i_sd_PUBCHEM\_BOND\_UDEF\_STEREO\_COUNT
+ i_sd_PUBCHEM\_ISOTOPIC\_ATOM\_COUNT
+ i_sd_PUBCHEM\_COMPONENT\_COUNT
+ i_sd_PUBCHEM\_CACTVS\_TAUTO\_COUNT
+ s_sd_PUBCHEM\_COORDINATE\_TYPE
+ s_sd_PUBCHEM\_BONDANNOTATIONS
+ b_sd_chiral_flag
+ i_sd_version
+ s_m_Source_Path
+ s_m_Source_File
+ i_m_Source_File_Index
+ s_j_original_title
+ s_ff_OPLSVersion
+ r_ff_RMS_Derivative
+ b_ff_Minimization_Converged
+ s_j_genealogy
+ i_j_TautomerStage_index
+ r_j_multistage_ediff
+ r_f3d_energy
+ i_f3d_flags
+ s_mopac_SemiEmpirical_Method
+ r_mopac_MOPAC_Heat_of_Formation
+ s_j_jname
+ i_j_TautomerStage1_index
+ s_st_Chirality_1
+ i_j_TautomerStage2_index
+ r_NDDO_NDDO_Heat_of_Formation
+ s_NDDO_SemiEmpirical_Method
+ i_j_SemiEmpStage1_index
+ i_m_Spin_multiplicity
+ s_j_Task
+ s_j_Jaguar_input_file
+ s_j_Jaguar_restart_input_file
+ s_j_Jaguar_restart_mae_file
+ s_j_Jaguar_output_file
+ s_j_Jaguar_log_file
+ s_j_Jaguar_mae_file
+ s_j_QM_Method
+ s_j_QM_Basis
+ i_j_Number_of_canonical_orbitals
+ i_j_Geometry_convergence_category
+ r_j_Gas_Phase_Energy
+ r_j_Solution_Phase_Energy
+ r_j_Final_Energy
+ r_j_Solvation_Energy_(kcal/mol)
+ r_j_HOMO
+ r_j_LUMO
+ i_j_QMStage1_index
+ i_j_QMStage2_index
+ s_m_subgroupid
+ b_m_subgroup_collapsed
+ i_m_ct_format
+ :::
+ 227928_12 
+  2 
+  Structure2D_COMPOUND_CID_227928.1 
+  227928
+  1
+  246
+  5
+  3
+  1
+  AAADcYBjsAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAHgAcAAAACAjBgAQBAALiAACJAAVWUACAAAAAAgAQAICIAECAQAAAAAAQAAAIByIAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA== 
+  "N-(2,4-dioxo-1H-pyrimidin-5-yl)nitrous amide" 
+  "N-(2,4-dioxo-1H-pyrimidin-5-yl)nitrous amide" 
+  "<I>N</I>-(2,4-dioxo-1<I>H</I>-pyrimidin-5-yl)nitrous amide" 
+  "N-(2,4-dioxo-1H-pyrimidin-5-yl)nitrous amide" 
+  "N-[2,4-bis(oxidanylidene)-1H-pyrimidin-5-yl]nitrous amide" 
+  "N-(2,4-diketo-1H-pyrimidin-5-yl)nitrous amide" 
+  InChI=1S/C4H4N4O3/c9-3-2(7-8-11)1-5-4(10)6-3/h1H,(H,7,11)(H2,5,6,9,10) 
+  OIXPJPUFFXAGLN-UHFFFAOYSA-N 
+  -1.1
+  156.02834
+  C4H4N4O3 
+  156.1
+  C1=C(C(=O)NC(=O)N1)NN=O 
+  C1=C(C(=O)NC(=O)N1)NN=O 
+  C1=C(C(=O)NC(=O)N1)NN=O 
+  99.7
+  156.02834
+  0
+  11
+  0
+  0
+  0
+  0
+  0
+  1
+  -1
+  "1
+5
+255" 
+  "4  11  8
+4  9  8
+5  10  8
+5  11  8
+8  10  8
+8  9  8" 
+  0
+  0
+  /home/vm/Downloads 
+  Structure2D_COMPOUND_CID_227928.sdf 
+  1
+  227928 
+  OPLS4 
+  0.0448754804299294
+  1
+  1_2_42_25_16_12 
+  1
+  12.2632368573686
+  0
+  0
+  PM7 
+  -36.75297
+  227928_16_isomer16 
+  2
+  9_S_3_1_4_8 
+  42
+  0.66977
+  PM3 
+  25
+  1
+  "Single Point" 
+  /mnt/Data_4/RESEARCH/UHRF1/JAGUAR/nsc20116_taut/nsc20116_taut_QMStage2_workdir/227928_16_isomer16.in 
+  /mnt/Data_4/RESEARCH/UHRF1/JAGUAR/nsc20116_taut/nsc20116_taut_QMStage2_workdir/227928_16_isomer16.01.in 
+  /mnt/Data_4/RESEARCH/UHRF1/JAGUAR/nsc20116_taut/nsc20116_taut_QMStage2_workdir/227928_16_isomer16.01.mae 
+  /mnt/Data_4/RESEARCH/UHRF1/JAGUAR/nsc20116_taut/nsc20116_taut_QMStage2_workdir/227928_16_isomer16.out 
+  /mnt/Data_4/RESEARCH/UHRF1/JAGUAR/nsc20116_taut/nsc20116_taut_QMStage2_workdir/227928_16_isomer16.log 
+  /mnt/Data_4/RESEARCH/UHRF1/JAGUAR/nsc20116_taut/nsc20116_taut_QMStage2_workdir/227928_16_isomer16.mae 
+  DFT(m06-2x)/SOLV 
+  cc-pvtz(-f) 
+  287
+  3
+  -599.427354059395
+  -599.464094704407
+  -599.464094704407
+  -23.0551026790471
+  -0.308357021288391
+  -0.0543166322119398
+  16
+  12
+  nsc20116_taut_QMStage2-out.mae 
+  1
+  2
+ m_depend[19] { 
+  # First column is dependency index #
+  i_m_depend_dependency
+  s_m_depend_property
+  :::
+  1 10 s_st_Chirality_1 
+  2 20 i_m_Spin_multiplicity 
+  3 20 s_j_Task 
+  4 20 s_j_Jaguar_input_file 
+  5 20 s_j_Jaguar_restart_input_file 
+  6 20 s_j_Jaguar_restart_mae_file 
+  7 20 s_j_Jaguar_output_file 
+  8 20 s_j_Jaguar_log_file 
+  9 20 s_j_Jaguar_mae_file 
+  10 20 s_j_QM_Method 
+  11 20 s_j_QM_Basis 
+  12 20 i_j_Number_of_canonical_orbitals 
+  13 20 i_j_Geometry_convergence_category 
+  14 20 r_j_Gas_Phase_Energy 
+  15 20 r_j_Solution_Phase_Energy 
+  16 20 r_j_Final_Energy 
+  17 20 r_j_Solvation_Energy_(kcal/mol) 
+  18 20 r_j_HOMO 
+  19 20 r_j_LUMO 
+  :::
+ } 
+ m_atom[15] { 
+  # First column is atom index #
+  i_m_mmod_type
+  r_m_x_coord
+  r_m_y_coord
+  r_m_z_coord
+  i_m_residue_number
+  i_m_color
+  r_m_charge1
+  r_m_charge2
+  i_m_atomic_number
+  s_m_color_rgb
+  s_m_atom_name
+  r_j_ESP_Charges
+  s_j_Tautomer_site
+  b_st_NoSrcChirality
+  :::
+  1 16 -0.062518 0.039541 -0.018406 900 70 -0.71372 -0.71372 8 FF2F2F  O1  -0.71371518857303 donor  <>
+  2 15 2.577361 2.848050 -1.823017 900 70 -0.65365 -0.65365 8 FF2F2F  O2  -0.653652916846758 acceptor  <>
+  3 16 1.700890 -1.343899 0.000012 900 70 -0.38363 -0.38363 8 FF2F2F  O3  -0.38363484727757 <> <>
+  4 25 1.947665 0.786065 -1.039196 900 43 -0.66188 -0.66188 7 5757FF  N4  -0.661880668631153 donor  <>
+  5 25 2.472691 2.540420 0.446978 900 43 -0.41154 -0.41154 7 5757FF  N5  -0.411541896981478 donor  <>
+  6 25 2.168908 -0.677480 2.085556 900 43 -0.25641 -0.25641 7 5757FF  N6  -0.256409009649403 acceptor  <>
+  7 25 2.056344 -1.704190 1.393740 900 43 -0.06853 -0.06853 7 5757FF  N7  -0.0685333507388254 acceptor  <>
+  8 2 1.933194 0.461474 1.335317 900 2 0.06471 0.06471 6 A0A0A0  C8  0.0647120668197487 acceptor  <>
+  9 3 1.350444 0.026237 0.024855 900 2 0.97871 0.97871 6 A0A0A0  C9  0.978706464460368 <> 1
+  10 2 2.423896 1.707487 1.530224 900 2 -0.05488 -0.05488 6 A0A0A0  C10  -0.0548792408163237 <> <>
+  11 2 2.333224 2.097143 -0.881853 900 2 0.71929 0.71929 6 A0A0A0  C11  0.719292907301765 <> <>
+  12 41 2.829983 2.060594 2.473945 900 21 0.24373 0.24373 1 FFFFFF  H12  0.243733964842901 <> <>
+  13 43 1.764375 0.492599 -1.997387 900 21 0.38399 0.38399 1 FFFFFF  H13  0.383993413473046 <> <>
+  14 43 2.788013 3.503045 0.553326 900 21 0.40112 0.40112 1 FFFFFF  H14  0.4011206853694 <> <>
+  15 42 -0.383286 0.943475 0.153064 900 21 0.41269 0.41269 1 FFFFFF  H15  0.412687617247313 <> <>
+  :::
+ } 
+ m_bond[16] { 
+  # First column is bond index #
+  i_m_from
+  i_m_to
+  i_m_order
+  :::
+  1 1 9 1
+  2 1 15 1
+  3 2 11 2
+  4 3 7 1
+  5 3 9 1
+  6 4 9 1
+  7 4 11 1
+  8 4 13 1
+  9 5 10 1
+  10 5 11 1
+  11 5 14 1
+  12 6 7 2
+  13 6 8 1
+  14 8 9 1
+  15 8 10 2
+  16 10 12 1
+  :::
+ } 
+} 
+
