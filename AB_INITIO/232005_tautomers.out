@@ -1,0 +1,209 @@
+
+Running MultiStage Pipeline
+============================
+
+Command:  /mnt/Data_3/SCHRODINGER_2021-2/jaguar run AutoConf.py 232005_tautomers.maegz -config 232005_tautomers.in -jobname 232005_tautomers -HOST localhost:2 -PROJ /mnt/Data_3/SCHRODINGER_2021-2_TMP/Tmp_26Apr2024_0908_41870 -DISP append -VIEWNAME autoconf_gui.AutoConfPanel -TMPLAUNCHDIR
+Release:  2021-2
+Exec:     /mnt/Data_3/SCHRODINGER_2021-2/jaguar-v11.2/bin/Linux-x86_64
+Host:     vm-linux1
+JobId:    vm-linux1-0-662b6b2d
+JobDir:   /mnt/Data_3/SCHRODINGER_2021-2_TMP/vm/232005_tautomers
+Date:     Fri Apr 26 11:51:58 2024
+
+Config file parsed as:
+{'TautomerStage1': {'type': 'ring_chain', 'backend_options': {'disable_fast_pka': True, 'min_ring_size': 5, 'max_ring_size': 7}}, 'TautomerStage2': {'backend_options': {'disable_fast_pka': True, 'charge': 0}}, 'SemiEmpStage1': {'nkeep': 100, 'erg_window': 100.0, 'backend_options': {'method': 'PM3', 'nogeopt': True, 'energy_only': True, 'keywords': 'GEO-OK NOREOR SCFCRT=1.0 ITRY=200 PL T=30D'}}, 'QMStage1': {'nkeep': 25, 'erg_window': 50.0, 'canonical': True, 'backend_options': {'basis': 'LACVP**', 'dftname': 'B3LYP-D3', 'igeopt': 1, 'nofail': 1, 'stop_rxn': 1, 'check_min': 2, 'isolv': 2, 'nogas': 2, 'solvent': 'water'}}, 'QMStage2': {'nkeep': 5, 'canonical': True, 'backend_options': {'basis': 'cc-pVTZ(-f)', 'dftname': 'M06-2X', 'nofail': 1, 'isolv': 2, 'nogas': 2, 'solvent': 'water'}}}
+
+
+Executing the following Pipeline:
+
+232005_tautomers.maegz
+||
+||
+(1) TautomerStage1
+||
+\/
+232005_tautomers_TautomerStage1-out.mae
+||
+||
+(2) TautomerStage2
+||
+\/
+232005_tautomers_TautomerStage2-out.mae
+||
+||
+(3) SemiEmpStage1
+||
+\/
+232005_tautomers_SemiEmpStage1-out.mae
+||
+||
+(4) QMStage1
+||
+\/
+232005_tautomers_QMStage1-out.mae
+||
+||
+(5) QMStage2
+||
+\/
+232005_tautomers_QMStage2-out.mae
+
+
+
+(1) TautomerStage1
+--------------------
+
+Generating tautomers from: 
+multistage_input.mae
+Configuration = {'erg_window': 100.0, 'nkeep': 1000000, 'keep_nconf_per_struct': 1000000, 'reset_connectivity': False, 'backend_options': {'disable_fast_pka': True, 'min_ring_size': 5, 'max_ring_size': 7}, 'type': 'ring_chain'}
+
+Work directory = 232005_tautomers_TautomerStage1_workdir
+Found 1 structures from subjobs.
+
+Preserving at most 1000000 conformers per structure.
+1 filtered structures added to:
+232005_tautomers_TautomerStage1-out.mae
+Timer (TautomerStage1) : 132.61 secs (0 hrs, 02 mins, 12 secs)
+
+
+(2) TautomerStage2
+--------------------
+
+Generating tautomers from: 
+232005_tautomers_TautomerStage1-out.mae
+Configuration = {'erg_window': 100.0, 'nkeep': 1000000, 'keep_nconf_per_struct': 1000000, 'reset_connectivity': False, 'backend_options': {'disable_fast_pka': True, 'charge': 0}, 'type': 'prototropic'}
+
+Work directory = 232005_tautomers_TautomerStage2_workdir
+Found 20 structures from subjobs.
+
+Preserving at most 1000000 conformers per structure.
+20 filtered structures added to:
+232005_tautomers_TautomerStage2-out.mae
+Timer (TautomerStage2) : 46.65 secs
+
+
+(3) SemiEmpStage1
+-------------------
+
+Executing semi-empirical stage on: 
+232005_tautomers_TautomerStage2-out.mae
+Configuration = {'erg_window': 100.0, 'nkeep': 100, 'keep_nconf_per_struct': 1000000, 'reset_connectivity': False, 'backend_options': {'method': 'PM3', 'nogeopt': True, 'energy_only': True, 'keywords': 'GEO-OK NOREOR SCFCRT=1.0 ITRY=200 PL T=30D'}}
+
+Work directory = 232005_tautomers_SemiEmpStage1_workdir
+Found 20 structures from subjobs.
+
+20 structures were sorted by label:
+r_NDDO_NDDO_Heat_of_Formation
+
+Structure    Genealogy    Energy (kcal/mol)   Difference    % Boltzmann @298K   SMILES
+conf-3_1     1_15_1       73.23               0.00          95.13               NCC(=O)c1c[nH+]c(=O)[nH]c1O
+conf-3_2     1_12_2       75.01               1.77          4.75                NCC(=O)c1cnc(O)[nH+]c1O
+conf-3_3     1_14_3       77.55               4.32          0.06                [NH3+]CC(=O)c1cnc(O)nc1O
+conf-3_4     1_16_4       77.79               4.55          0.04                [NH3+]CC(=O)c1cnc(=O)[nH]c1O
+conf-3_5     1_1_5        78.82               5.58          0.01                [NH3+]CC(=O)c1c[nH]c(=O)[nH]c1=O
+conf-3_6     1_18_6       85.13               11.90         0.00                NCC(=O)c1c[nH]c(O)[nH+]c1=O
+conf-3_7     1_9_7        88.18               14.95         0.00                NC/C(O)=C1\C=[NH+]C(=O)NC1=O
+conf-3_8     1_3_8        89.08               15.85         0.00                NC/C(O)=C1\C=NC(=O)[NH+]=C1O
+conf-3_9     1_17_9       89.32               16.09         0.00                [NH3+]CC(=O)c1c[nH]c(=O)nc1O
+conf-3_10    1_6_10       90.22               16.99         0.00                NC/C(O)=C1\C=NC(O)=[NH+]C1=O
+conf-3_11    1_13_11      93.75               20.51         0.00                NCC(=O)c1c[nH+]c(O)nc1O
+conf-3_12    1_19_12      96.36               23.12         0.00                [NH3+]CC(=O)c1cnc(O)[nH]c1=O
+conf-3_13    1_4_13       98.18               24.94         0.00                NC/C(O)=C1\C=[NH+]C(=O)N=C1O
+conf-3_14    1_20_14      98.35               25.12         0.00                [NH3+]CC(=O)c1c[nH]c(O)nc1=O
+conf-3_15    1_2_15       98.56               25.33         0.00                [H]/[O+]=C(\CN)c1cnc(O)nc1O
+conf-3_16    1_7_16       108.52              35.29         0.00                NC/C(O)=C1\C=[NH+]C(O)=NC1=O
+conf-3_17    1_10_17      115.77              42.54         0.00                [NH3+]C/C(O)=C1\C=NC(=O)NC1=O
+conf-3_18    1_8_18       126.23              53.00         0.00                [NH3+]C/C(O)=C1\C=NC(O)=NC1=O
+conf-3_19    1_5_19       128.83              55.59         0.00                [NH3+]C/C(O)=C1\C=NC(=O)N=C1O
+conf-3_20    1_11_20      163.96              90.72         0.00                [NH3+]C/C(O)=C1\C=[NH+]C(=O)N=C1[O-]
+
+Preserving at most 1000000 conformers per structure.
+20 filtered structures added to:
+232005_tautomers_SemiEmpStage1-out.mae
+Timer (SemiEmpStage1) : 4.71 secs
+
+
+(4) QMStage1
+--------------
+
+Executing quantum-mechanical stage on: 
+232005_tautomers_SemiEmpStage1-out.mae
+Configuration = {'erg_window': 50.0, 'nkeep': 25, 'keep_nconf_per_struct': 1000000, 'reset_connectivity': False, 'backend_options': {'basis': 'LACVP**', 'dftname': 'B3LYP-D3', 'igeopt': 1, 'nofail': 1, 'stop_rxn': 1, 'check_min': 2, 'isolv': 2, 'nogas': 2, 'solvent': 'water'}, 'canonical': True}
+
+Work directory = 232005_tautomers_QMStage1_workdir
+Found 20 structures from subjobs.
+
+20 structures were sorted by label:
+r_j_Final_Energy
+
+Structure    Genealogy     Energy (kcal/mol)   Difference    % Boltzmann @298K   SMILES
+conf-3_1     1_1_5_1       -391146.15          0.00          100.00              [NH3+]CC(=O)c1c[nH]c(=O)[nH]c1=O
+conf-3_2     1_17_9_2      -391140.04          6.12          0.00                [NH3+]CC(=O)c1c[nH]c(=O)nc1O
+conf-3_3     1_16_4_3      -391138.88          7.28          0.00                [NH3+]CC(=O)c1cnc(=O)[nH]c1O
+conf-3_4     1_14_3_4      -391134.54          11.62         0.00                [NH3+]CC(=O)c1cnc(O)nc1O
+conf-3_5     1_19_12_5     -391134.48          11.68         0.00                [NH3+]CC(=O)c1cnc(O)[nH]c1=O
+conf-3_6     1_15_1_6      -391129.68          16.47         0.00                NCC(=O)c1c[nH+]c(=O)[nH]c1O
+conf-3_7     1_9_7_7       -391128.60          17.56         0.00                NC/C(O)=C1\C=[NH+]C(=O)NC1=O
+conf-3_8     1_20_14_8     -391126.62          19.53         0.00                [NH3+]CC(=O)c1c[nH]c(O)nc1=O
+conf-3_9     1_10_17_9     -391121.00          25.15         0.00                [NH3+]C/C(O)=C1\C=NC(=O)NC1=O
+conf-3_10    1_12_2_10     -391118.20          27.95         0.00                NCC(=O)c1cnc(O)[nH+]c1O
+conf-3_11    1_13_11_11    -391118.13          28.02         0.00                NCC(=O)c1c[nH+]c(O)nc1O
+conf-3_12    1_2_15_12     -391116.74          29.41         0.00                [H]/[O+]=C(\CN)c1cnc(O)nc1O
+conf-3_13    1_6_10_13     -391115.34          30.82         0.00                NC/C(O)=C1\C=NC(O)=[NH+]C1=O
+conf-3_14    1_18_6_14     -391114.59          31.57         0.00                NCC(=O)c1c[nH]c(O)[nH+]c1=O
+conf-3_15    1_4_13_15     -391114.43          31.72         0.00                NC/C(O)=C1\C=[NH+]C(=O)N=C1O
+conf-3_16    1_3_8_16      -391113.81          32.35         0.00                NC/C(O)=C1\C=NC(=O)[NH+]=C1O
+conf-3_17    1_7_16_17     -391106.94          39.21         0.00                NC/C(O)=C1\C=[NH+]C(O)=NC1=O
+conf-3_18    1_5_19_18     -391106.65          39.51         0.00                [NH3+]C/C(O)=C1\C=NC(=O)N=C1O
+conf-3_19    1_11_20_19    -391105.44          40.71         0.00                [NH3+]C/C(O)=C1\C=[NH+]C(=O)N=C1[O-]
+conf-3_20    1_8_18_20     -391105.34          40.81         0.00                [NH3+]C/C(O)=C1\C=NC(O)=NC1=O
+
+Preserving at most 1000000 conformers per structure.
+20 filtered structures added to:
+232005_tautomers_QMStage1-out.mae
+Timer (QMStage1) : 5094.50 secs (1 hrs, 24 mins, 54 secs)
+
+
+(5) QMStage2
+--------------
+
+Executing quantum-mechanical stage on: 
+232005_tautomers_QMStage1-out.mae
+Configuration = {'erg_window': 100.0, 'nkeep': 5, 'keep_nconf_per_struct': 1000000, 'reset_connectivity': False, 'backend_options': {'basis': 'cc-pVTZ(-f)', 'dftname': 'M06-2X', 'nofail': 1, 'isolv': 2, 'nogas': 2, 'solvent': 'water'}, 'canonical': True}
+
+Work directory = 232005_tautomers_QMStage2_workdir
+Found 20 structures from subjobs.
+
+20 structures were sorted by label:
+r_j_Final_Energy
+
+Structure    Genealogy        Energy (kcal/mol)   Difference    % Boltzmann @298K   SMILES
+conf-3_1     1_1_5_1_1        -391117.76          0.00          99.98               [NH3+]CC(=O)c1c[nH]c(=O)[nH]c1=O
+conf-3_2     1_17_9_2_2       -391112.65          5.10          0.02                [NH3+]CC(=O)c1c[nH]c(=O)nc1O
+conf-3_3     1_16_4_3_3       -391110.63          7.13          0.00                [NH3+]CC(=O)c1cnc(=O)[nH]c1O
+conf-3_4     1_14_3_4_4       -391108.73          9.02          0.00                [NH3+]CC(=O)c1cnc(O)nc1O
+conf-3_5     1_19_12_5_5      -391107.56          10.19         0.00                [NH3+]CC(=O)c1cnc(O)[nH]c1=O
+conf-3_6     1_20_14_8_6      -391101.41          16.35         0.00                [NH3+]CC(=O)c1c[nH]c(O)nc1=O
+conf-3_7     1_15_1_6_7       -391100.18          17.58         0.00                NCC(=O)c1c[nH+]c(=O)[nH]c1O
+conf-3_8     1_9_7_7_8        -391098.89          18.87         0.00                NC/C(O)=C1\C=[NH+]C(=O)NC1=O
+conf-3_9     1_10_17_9_9      -391094.05          23.71         0.00                [NH3+]C/C(O)=C1\C=NC(=O)NC1=O
+conf-3_10    1_13_11_11_10    -391091.30          26.45         0.00                NCC(=O)c1c[nH+]c(O)nc1O
+conf-3_11    1_12_2_10_11     -391090.54          27.21         0.00                NCC(=O)c1cnc(O)[nH+]c1O
+conf-3_12    1_2_15_12_12     -391090.47          27.29         0.00                [H]/[O+]=C(\CN)c1cnc(O)nc1O
+conf-3_13    1_18_6_14_13     -391087.44          30.31         0.00                NCC(=O)c1c[nH]c(O)[nH+]c1=O
+conf-3_14    1_6_10_13_14     -391087.18          30.57         0.00                NC/C(O)=C1\C=NC(O)=[NH+]C1=O
+conf-3_15    1_4_13_15_15     -391086.56          31.20         0.00                NC/C(O)=C1\C=[NH+]C(=O)N=C1O
+conf-3_16    1_3_8_16_16      -391085.31          32.45         0.00                NC/C(O)=C1\C=NC(=O)[NH+]=C1O
+conf-3_17    1_5_19_18_17     -391081.18          36.58         0.00                [NH3+]C/C(O)=C1\C=NC(=O)N=C1O
+conf-3_18    1_8_18_20_18     -391080.99          36.76         0.00                [NH3+]C/C(O)=C1\C=NC(O)=NC1=O
+conf-3_19    1_7_16_17_19     -391080.63          37.12         0.00                NC/C(O)=C1\C=[NH+]C(O)=NC1=O
+conf-3_20    1_11_20_19_20    -391080.08          37.68         0.00                [NH3+]C/C(O)=C1\C=[NH+]C(=O)N=C1[O-]
+
+Preserving at most 1000000 conformers per structure.
+5 filtered structures added to:
+232005_tautomers_QMStage2-out.mae
+Timer (QMStage2) : 1621.41 secs (0 hrs, 27 mins, 01 secs)
+
+All done!
+Timer (MultiStage Pipeline) : 6899.91 secs (1 hrs, 54 mins, 59 secs)
+Finished: Fri Apr 26 13:46:58 2024
