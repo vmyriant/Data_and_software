@@ -1,0 +1,24 @@
+task {
+  set_family = {
+     generic = {
+        transfer_asap = false
+     }
+  }
+  task = "desmond:auto"
+}
+
+multisim {
+  job = [
+     [-m "fep_20116_20116-keto_complex.msj" -cpu 1 -o "$MAINJOBNAME_complex-out.mae" -JOBNAME "$MAINJOBNAME_complex" -HOST "$SUBHOST:2" -mode umbrella ]
+     [-m "fep_20116_20116-keto_solvent.msj" -cpu 1 -o "$MAINJOBNAME_solvent-out.mae" -JOBNAME "$MAINJOBNAME_solvent" -HOST "$SUBHOST:2" -mode umbrella ]
+  ]
+  transfer_asap = true
+}
+
+calc_ddg {
+  transfer_asap = false
+}
+
+
+# Job launching command:
+# $SCHRODINGER/utilities/multisim -HOST localhost -SUBHOST localhost -m fep_20116_20116-keto.msj -JOBNAME fep_20116_20116-keto fep_20116_20116-keto.mae -PROJ /mnt/Data_3/DESMOND_2022-4_TMP/Tmp_06Mar2025_1607_57628 -DISP append -VIEWNAME ligand_fep.FEPScholarPanel -TMPLAUNCHDIR
