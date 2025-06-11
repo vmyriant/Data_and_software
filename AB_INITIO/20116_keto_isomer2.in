@@ -2,11 +2,13 @@ MAEFILE: 20116_keto_isomer2.mae
 &gen
 irder=1
 iuhf=0
+isolv=2
 basis=CC-PVTZ(-F)++
 massav=1
 scalfr=0.95
 dftname=M06-2X
 ifreq=1
+nogas=0
 ncanorb=378
 &
 entry_name: 20116_keto
